@@ -461,10 +461,43 @@
     shareButton.hidden = !stories.length && !payloadShareUrl;
   }
 
+  // Stories never scroll: a long one gets smaller type until it fits the
+  // card. Past MIN_FIT the summary drops its last lines instead.
+  const MIN_FIT = 0.7;
+  const FIT_STEP = 0.05;
+
+  // The summary shrinks inside the card rather than pushing it, so check both.
+  function overflowing(card) {
+    const summary = card.querySelector(".story-summary");
+    return card.scrollHeight > card.clientHeight + 1
+      || Boolean(summary && summary.scrollHeight > summary.clientHeight + 1);
+  }
+
+  function fitCard(card) {
+    const summary = card.querySelector(".story-summary");
+    if (summary) summary.style.removeProperty("-webkit-line-clamp");
+    let fit = 1;
+    card.style.setProperty("--fit", fit);
+    while (overflowing(card) && fit > MIN_FIT) {
+      fit = Math.max(MIN_FIT, fit - FIT_STEP);
+      card.style.setProperty("--fit", fit.toFixed(2));
+    }
+    if (overflowing(card) && summary) {
+      const line = parseFloat(getComputedStyle(summary).lineHeight) || 20;
+      const lines = Math.max(1, Math.floor(summary.clientHeight / line));
+      summary.style.setProperty("-webkit-line-clamp", String(lines));
+    }
+  }
+
+  function fitCards() {
+    [...carousel.children].forEach(fitCard);
+  }
+
   function render() {
     carousel.replaceChildren(...stories.map((s, i) => storyCard(s, i, stories.length)));
     carousel.scrollLeft = 0;
     current = 0;
+    fitCards();
     updateControls();
   }
 
@@ -484,7 +517,10 @@
   function replaceStory(index, story) {
     stories[index] = story;
     const old = carousel.children[index];
-    if (old) old.replaceWith(storyCard(story, index, stories.length));
+    if (!old) return;
+    const card = storyCard(story, index, stories.length);
+    old.replaceWith(card);
+    fitCard(card);
   }
 
   function clearPolls() {
@@ -715,6 +751,12 @@
     weekday: "long", month: "long", day: "numeric", year: "numeric", timeZone: "America/New_York",
   });
 
+  let fitFrame = 0;
+  window.addEventListener("resize", () => {
+    cancelAnimationFrame(fitFrame);
+    fitFrame = requestAnimationFrame(fitCards);
+  });
+  if (document.fonts) document.fonts.ready.then(fitCards);
   window.addEventListener("popstate", load);
   load();
 })();
