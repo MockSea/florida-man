@@ -454,12 +454,14 @@ a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: 1px
 
 /* App shell: the page is exactly one screen tall and never scrolls. Only the
    story card scrolls, inside itself, when a story runs long, so nothing else
-   on the page moves. dvh tracks the phone's collapsing URL bar. */
+   on the page moves. The document itself can't scroll (html is hidden, not
+   clip, so iOS has nothing to drag), and the body is pinned to the screen. */
+html { height: 100%; overflow: hidden; }
 body {
+  position: fixed;
+  inset: 0;
   display: flex;
   flex-direction: column;
-  height: 100vh;
-  height: 100dvh;
   overflow: hidden;
 }
 .masthead, .page, .site-footer { width: 100%; }
