@@ -451,3 +451,34 @@ a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: 1px
 }
 
 
+
+/* App shell: the page is exactly one screen tall and never scrolls. Only the
+   story card scrolls, inside itself, when a story runs long, so nothing else
+   on the page moves. dvh tracks the phone's collapsing URL bar. */
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  height: 100dvh;
+  overflow: hidden;
+}
+.masthead, .page, .site-footer { width: 100%; }
+.masthead, .site-footer { flex: none; }
+.page { flex: 1; min-height: 0; display: flex; flex-direction: column; }
+.search, .status { flex: none; }
+.results { flex: 1; min-height: 0; display: flex; flex-direction: column; padding-bottom: 1rem; }
+.results-head, .notice, .story-nav { flex: none; }
+.carousel { flex: 1; min-height: 0; }
+.story-card {
+  overflow-y: auto;
+  overscroll-behavior-y: contain;
+  scrollbar-width: thin;
+}
+.site-footer { padding-bottom: max(1rem, env(safe-area-inset-bottom)); }
+.site-footer p { padding-top: .75rem; }
+
+/* Short phones: give the story the room the masthead was using. */
+@media (max-height: 720px) {
+  .masthead-tag { display: none; }
+  .results-head { margin-top: .75rem; }
+}
