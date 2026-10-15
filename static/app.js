@@ -179,7 +179,6 @@
   const ISO_DATE = /^\d{4}-\d{2}-\d{2}$/;
   const MONTH_DAY = /^\d{2}-\d{2}$/;
   const MAX_RESULTS = 20;
-  const FALLBACK_TEXT = "Nothing on that exact day. Here’s Florida Man on %s in other years.";
 
   const serverApi = {
     today: () => getJson("api/today"),
@@ -330,24 +329,15 @@
       throw error;
     }
 
-    // Like the server: the exact day, else that month/day in other years.
-    // Unlike it, only collected days exist, so last of all the nearest one.
+    // The year doesn't matter: a date search means that month and day in every
+    // year we have. Only collected days exist, so failing that, the nearest one.
     function pick(pool, date, town) {
       const monthDay = MONTH_DAY.test(date) ? date : date.slice(5);
-      if (ISO_DATE.test(date)) {
-        const exact = pool.filter((e) => e.incidentDate === date);
-        if (exact.length) return { hits: exact, message: null };
-      }
       const sameDay = pool.filter((e) => e.incidentDate.slice(5) === monthDay);
-      if (sameDay.length) {
-        const message = ISO_DATE.test(date) ? FALLBACK_TEXT.replace("%s", monthDayLabel(monthDay)) : null;
-        return { hits: sameDay, message };
-      }
+      if (sameDay.length) return { hits: sameDay, message: null };
       if (!pool.length) return { hits: [], message: null };
-      // Nearest collected day: by full date, or by month/day (in a leap year,
-      // wrapping round New Year) for an MM-DD search.
+      // Nearest collected month/day, in a leap year, wrapping round New Year.
       const distance = (e) => {
-        if (ISO_DATE.test(date)) return Math.abs(daysBetween(e.incidentDate, date));
         const d = Math.abs(daysBetween(`2000-${e.incidentDate.slice(5)}`, `2000-${monthDay}`));
         return Math.min(d, 366 - d);
       };
