@@ -1,0 +1,3 @@
+<?xml version="1.0"?>
+<!DOCTYPE lolz [<!ENTITY lol "lol"><!ENTITY lol2 "&lol;&lol;&lol;">]>
+<rss version="2.0"><channel><item><title>&lol2;</title><link>https://news.google.com/rss/articles/x</link></item></channel></rss>

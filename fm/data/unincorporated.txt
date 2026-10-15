@@ -1,0 +1,67 @@
+# Well-known unincorporated Florida communities (census-designated places).
+# Not municipalities, but they show up constantly in Florida Man datelines.
+# Delete this file to restrict validation to incorporated municipalities only.
+Apollo Beach
+Big Pine Key
+Bonita Shores
+Brandon
+Carrollwood
+Celebration
+Citrus Springs
+Ellenton
+Englewood
+Fleming Island
+Gibsonton
+Golden Gate
+Hobe Sound
+Holiday
+Homosassa
+Homosassa Springs
+Hudson
+Hunters Creek
+Immokalee
+Jensen Beach
+Kendall
+Key Largo
+Land O' Lakes
+Lakewood Ranch
+Lehigh Acres
+Lutz
+Merritt Island
+Middleburg
+Mims
+Miramar Beach
+Navarre
+Nokomis
+North Fort Myers
+Ocklawaha
+Odessa
+Osprey
+Pace
+Palm City
+Palm Harbor
+Palm Valley
+Parrish
+Pine Hills
+Poinciana
+Ponte Vedra Beach
+Port Charlotte
+Port Salerno
+Riverview
+Rotonda West
+Ruskin
+Santa Rosa Beach
+Seffner
+Siesta Key
+Silver Springs Shores
+Spring Hill
+Sun City Center
+Tavernier
+The Villages
+Thonotosassa
+Town 'n' Country
+Valrico
+Viera
+Wesley Chapel
+Wimauma
+Yulee

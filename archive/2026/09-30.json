@@ -1,0 +1,276 @@
+{
+ "cacheKey": "florida-man:2026-09-30",
+ "date": "2026-09-30",
+ "empty": false,
+ "message": null,
+ "more": [
+  {
+   "headline": "Florida Man Missing After Allegedly Trying to Jet Ski From South Florida to the Bahamas",
+   "id": "fa6fdc08180583ca",
+   "imageUrl": null,
+   "incidentDate": "2022-09-30",
+   "score": 31,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "object: unusual vehicle",
+    "entertainment: self-aware headline"
+   ],
+   "shareUrl": "/?story=fa6fdc08180583ca",
+   "sourceName": "Inside Edition",
+   "sourceSite": "https://www.insideedition.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOdVNnOEpza1duMWxDeERoeTVaaTA1MkxJbGVOLXNMcWg2N1ptYWpkSzd5T0IycG1LdUxyMUx6VkZ3TXhDaVpZVGtkMTBNaTBTX1hTemphMmNTTC1TNWxINjZlX1dZZGRJX19jbDIweHk1a2t0Wmo1SlpBajJPX1Ftdk5KeDJULWZsY2NEZFJHWDZHQnNkMGdmYlNudkExeksxMDl4M0hoRWxCODBWRmpJaWZDbjQ2a2pIdmd3bTNlMVXSAcYBQVVfeXFMUDNEeWE0WHhPNFZjTG5vVEZnS18xTWdxYXZBcG5RY2h5bkdmdW5Qdm9jaGljWm5DNFZWM2JxNHVhZEFOc1VfYU5zSjlWTkh0bkFCWGk5bWY5SjV6TFBiOTZTczdDb1R3ZkgwcE9INFdjeFZFX2tGSmxnTnBIUm5SQXBiXzdqbVE1V3FiUFFKWUhVY2pOS21vRkY1eFJsQ29waVlZY3RKMnhPdlNaUTcwcjJXNVVzbmRWUU44NVlWSDdVTnhmLWpn?oc=5",
+   "summary": "Inside Edition reported this one on September 30, 2022. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "We Must Respect This Florida Man Ripping a Bong During an Actual Hurricane",
+   "id": "06bef6719445c4bf",
+   "imageUrl": null,
+   "incidentDate": "2022-09-30",
+   "score": 27,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "florida: Florida weather/geology"
+   ],
+   "shareUrl": "/?story=06bef6719445c4bf",
+   "sourceName": "Futurism",
+   "sourceSite": "https://futurism.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1JRm9qZ0xoeS1Eam1ZcDhPM1JNU0JLY3FXSVIxY0owdTRLMUoxc1RJbXFtSnVKOVN5TDU0WjlLUWpyOU1UdTc4Zl9HdU1LMGtEMVVTR080TEtuSVNCeTdfOVhrdVdRVlk?oc=5",
+   "summary": "Futurism reported this one on September 30, 2022. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man gets 25 years in prison for stealing identity of Texas man in coma",
+   "id": "f737ed52bc150f15",
+   "imageUrl": null,
+   "incidentDate": "2024-09-30",
+   "score": 23,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "behavior: theft"
+   ],
+   "shareUrl": "/?story=f737ed52bc150f15",
+   "sourceName": "WKMG",
+   "sourceSite": "https://www.clickorlando.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxOc2RiZ3RnaXVLZkJRdm5wRS1fWlJRSzF4ZDVPaGxHRkIycWNBVFJIM3YwSVpSU0FublF4ckdzTjBjMndtZWZNNHoyRHZES0hTR0JEYmdLSXNiVUthbEdERkVNXy1YXzZmT21TZUpuN3RwWTlNNWxlWDNQREphNUJuX0g3VVZwOXd5d2NsZmxwQXIxRjZ3QUFvbEFaX2JPQ3NlOTNSRkZVdjdRVlhxZTlqQXNlV2JXbmJVM195TnJmR3J6OFE2eG43MzFR?oc=5",
+   "summary": "WKMG reported this one on September 30, 2024. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man arrested after brutal beating over movie theatre seats caught on camera",
+   "id": "11f957c04e03436d",
+   "imageUrl": null,
+   "incidentDate": "2023-09-30",
+   "score": 21,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "legal: arrest"
+   ],
+   "shareUrl": "/?story=11f957c04e03436d",
+   "sourceName": "The Independent",
+   "sourceSite": "https://www.independent.co.uk",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxONndCRzBfelZBQ2JLelU5d0VZTDZyS3gyanQteUFFZnUwZ2R4el9LVklySThWMC1GSTNRQlh6R0RNeTVIUjdmTVktaEpIYTJxR2p6bE0tX1ltdTZ1ZHZXT1VOWkxXaHp0MHhLV3VfUnpVOTk4XzlHSGRVYmd4UzVLb0lQQndHNGZhN2tSRDNUcHFPelVEVmhnNHowLS1SeUNFSVJIQ2xPX296MzI4?oc=5",
+   "summary": "The Independent reported this one on September 30, 2023. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "PHOTO: Florida Man Tried to Conceal Drugs from Cops by Snorting Them: Officials",
+   "id": "3683bd2b5534a87c",
+   "imageUrl": null,
+   "incidentDate": "2024-09-30",
+   "score": 20,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "legal: law enforcement"
+   ],
+   "shareUrl": "/?story=3683bd2b5534a87c",
+   "sourceName": "Latin Times",
+   "sourceSite": "https://www.latintimes.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNbDJ3VHlIOHZCLVVCS25mdUVrcUlXZENQUzdvNFZJMjRNcE1VbkVEN0owYWMwQTEzUURhalF0NGFvRU5vVjlVQWNzV1VqY2czSlhvUVFTcXQ2ZHI4UG5hcm41YVJ1dkc2SEFueUE0dC1JN2h5UXFsYllKX19IaTU2cE0zbWcwYmt3Mmx3U1FKelJCWndqVTRXVG9nSlFjRUJycEE?oc=5",
+   "summary": "Latin Times reported this one on September 30, 2024. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man could never have guessed the repair bill when he bought abandoned jet off Facebook Marketplace that was last flown in 2008",
+   "id": "4186da7db0c5b463",
+   "imageUrl": null,
+   "incidentDate": "2025-09-30",
+   "score": 15,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [],
+   "shareUrl": "/?story=4186da7db0c5b463",
+   "sourceName": "Supercar Blondie",
+   "sourceSite": "https://supercarblondie.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQQXV5NzVoX3FCY0VOTDJLTG9NazBGOS1iUV9Fbm04eWxBOWptVm93Q3c4R1BaOVJhX2FFNER1X096ZUdLVDBBWlZfSXd4NXJ5WWJOajF3ME9XS0RDMXRib29GRllTcTFGMFByQnFKVmluVDdPSU1xeVNOV2JDY3pZSF9YejMySnJyRUtrN1hjdWdENWha?oc=5",
+   "summary": "Supercar Blondie reported this one on September 30, 2025. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man rescued after boat gets stuck in mangroves",
+   "id": "b9ef8794dae74e7d",
+   "imageUrl": null,
+   "incidentDate": "2022-09-30",
+   "score": 15,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [],
+   "shareUrl": "/?story=b9ef8794dae74e7d",
+   "sourceName": "WFLA",
+   "sourceSite": "https://www.wfla.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYnhFNEp1X2xZWXRMNHR3LURjeHZxN295N0pyYlFtY3lxaUhjMnhoODdNbHpjWExLU3ZlM2JRNzA4aTMteUU4aFo5TWhPaUY0RVctQmg0bXY2RXdrWVFKdEtzZGxYSzZKcFFOc1JIMFU4eVEzeklvQURLMmhfUFNsMm9JS0tyRzNhM0lKUFhnWnRZbDjSAZgBQVVfeXFMTUVXR3kxd01tZWpqNlZoWU12TG5sdGxoMDhEMFlrRVhzVnlUSFphSUJ4NTVFNUVBczJ0RnJNUy1LY0QwVGRKenJadUIwZVFsTTF3ekRyOXFIVUR0N20wTjNDck9iRlpZRFoxZVJZUEowa1BkZVdORGlWYnkzaWpvQjc3VVhPb1RYYkNFQlJiVWs0bzRPY24xbXc?oc=5",
+   "summary": "WFLA reported this one on September 30, 2022. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "South Florida Man saves thousands of dollars with this loan option as housing market shifts",
+   "id": "d94f114eb33c9532",
+   "imageUrl": null,
+   "incidentDate": "2025-09-30",
+   "score": 15,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [],
+   "shareUrl": "/?story=d94f114eb33c9532",
+   "sourceName": "CBS News",
+   "sourceSite": "https://www.cbsnews.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxOeEJZSS1jdHpjbHVINF9jMXdVRUdLLXFBUkxJX0VjSlEyOUJsM0xkcy1kem1jbUIzTlRJUVBMWVRKRm85aG9Ba3p0RUJyaGlWS2REVU5xM2xZdlFhdC1VaHRNRy1sNlBpSXlnb09WeVZBQTRJTXc4UEV5YTI0VlZyY2dfNWtNSGdiakQ0Y25zcFRGMUxrOGZxUWlRb3VPbmp3ZFhfX3BfQTRRVmthNjdpV0d3?oc=5",
+   "summary": "CBS News reported this one on September 30, 2025. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man arrested for allegedly killing, cooking, and eating pet peacocks in bizarre revenge plot",
+   "id": "ff583998ae26ace9",
+   "imageUrl": null,
+   "incidentDate": "2025-09-30",
+   "score": 10,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "animal: bird",
+    "legal: arrest",
+    "entertainment: self-aware headline",
+    "penalty: grim story"
+   ],
+   "shareUrl": "/?story=ff583998ae26ace9",
+   "sourceName": "New York Post",
+   "sourceSite": "https://nypost.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOLXVkUTVKYU03WWtqX1RHb0FpbUlCb2oxQ3FfN2R5VkZDbmNBejVRZ0dDVWhObllyb1JmT2QtOFI0YmozOVVNYVBELWczclVCRm9FejlqM3VWVnltd0VkcnB2M2IxczJ2NEhyNUlLUmFfNG1LeW1wM2lnbGx4NnVqY1V5bUxCUVhhRGpCTUlhMTZWS0loX3lreUl1VXIyX1RvYWZ4RWRwaW9wNlpudTFJMy1RWQ?oc=5",
+   "summary": "New York Post reported this one on September 30, 2025. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  }
+ ],
+ "shareUrl": "/?date=2026-09-30",
+ "story": {
+  "headline": "Florida Man missing after trying to jet ski to Bahamas ahead of Hurricane Ian",
+  "id": "569fd2a9d893b01b",
+  "imageUrl": null,
+  "incidentDate": "2022-09-30",
+  "score": 39,
+  "scoreLabel": "subjective",
+  "scoreMax": 100,
+  "scoreReasons": [
+   "object: unusual vehicle",
+   "florida: Florida weather/geology"
+  ],
+  "shareUrl": "/?story=569fd2a9d893b01b",
+  "sourceName": "New York Daily News",
+  "sourceSite": "https://www.nydailynews.com",
+  "sourceUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNaVlETFdkS1hvc256M0oybmlPcXBQSUFPb1FWeUw4VDktYzd1eUVWdF9mUWZjU0JNZFJRdEhvWjJtU3JZZktxWFlRTHZSNEtIMlJEZmpGUFpKODMxTDVOay0tU3FINmtDajNFWE1kM2p5V2ROanBSMERjdEVwSWlZMlJYbGFseU9oLVZGRjhNX1g2UG9SdFkyRmw1WDh0WXAySV9oU3JWdkxRbWpybUJaTGdZc3haX29X?oc=5",
+  "summary": "New York Daily News reported this one on September 30, 2022. Full story at the source.",
+  "summarySource": "generated",
+  "town": null
+ },
+ "summaries": {
+  "06bef6719445c4bf": {
+   "fetched": 1792022604,
+   "publisherUrl": "https://futurism.com/the-byte/florida-man-dabs-hurricane",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "You simply can't make up Florida, as evidenced by a viral video of a bonafide Florida Man taking a bong rip as Hurricane Ian wreaks havoc behind him."
+  },
+  "11f957c04e03436d": {
+   "fetched": 1792022606,
+   "publisherUrl": "https://www.independent.co.uk/news/world/americas/crime/florida-movie-theatre-attack-vip-seats-b2421373.html",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "Jesse Montez Thorton allegedly ‘became hostile’ after being asked to move from VIP seats"
+  },
+  "3683bd2b5534a87c": {
+   "fetched": 1792022607,
+   "publisherUrl": "https://www.latintimes.com/photo-florida-man-tried-conceal-drugs-cops-snorting-them-officials-560784",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "After leading law enforcement on a short car chase, a Florida Man attempted to hide drugs in his possession by ingesting them."
+  },
+  "4186da7db0c5b463": {
+   "fetched": 1792022659,
+   "publisherUrl": "https://supercarblondie.com/abandoned-jet-repair-bill-is-staggering-for-cleetus-mcfarland/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "This flabbergasted Florida Man could never have guessed the repair bill when he bought an abandoned jet from Facebook Marketplace that was last flown in 2008"
+  },
+  "569fd2a9d893b01b": {
+   "fetched": 1792022592,
+   "publisherUrl": "https://www.nydailynews.com/2022/09/30/florida-man-missing-after-trying-to-jet-ski-to-bahamas-ahead-of-hurricane-ian/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "A Florida Man is missing after authorities say he attempted to jet ski from the Sunshine State to the Bahamas in the days before Hurricane Ian hit."
+  },
+  "b9ef8794dae74e7d": {
+   "fetched": 1792022669,
+   "publisherUrl": "https://www.wfla.com/news/florida/florida-man-rescued-after-boat-gets-stuck-in-mangroves/",
+   "retryAt": 1792109069,
+   "status": "failed",
+   "summary": null
+  },
+  "d94f114eb33c9532": {
+   "fetched": 1792022671,
+   "publisherUrl": "https://www.cbsnews.com/miami/news/south-florida-housing-market-mortgage-loans-rates-miami-brickell-condo-buyer/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "Paul Turcutto traded his West Coast life in California for the sleek skyline of Miami's Magic City."
+  },
+  "f737ed52bc150f15": {
+   "fetched": 1792022605,
+   "publisherUrl": "https://www.clickorlando.com/news/local/2024/09/30/florida-man-gets-25-years-in-prison-for-stealing-identity-of-texas-man-in-coma/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "SAO officials said he stole the comatose man’s identity back in 2021, using the personal information to take out loans for several vehicles."
+  },
+  "fa6fdc08180583ca": {
+   "fetched": 1792022603,
+   "publisherUrl": "https://www.insideedition.com/florida-man-missing-after-allegedly-trying-to-jet-ski-from-south-florida-to-the-bahamas-77187",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "52-year-old Charles Walker was last seen on Pompano Beach on September 23."
+  },
+  "ff583998ae26ace9": {
+   "fetched": 1792022673,
+   "publisherUrl": "https://nypost.com/2025/09/30/us-news/florida-man-arrested-for-allegedly-killing-cooking-and-eating-pet-peacocks/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "Craig Vogt delivered a letter to his neighbor to “prove a point that he will continue to kill his pet peacocks if she continues to feed them,” the affidavit said."
+  }
+ },
+ "yearsSearched": [
+  2025,
+  2024,
+  2023,
+  2022
+ ]
+}

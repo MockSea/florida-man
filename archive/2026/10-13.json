@@ -1,0 +1,275 @@
+{
+ "cacheKey": "florida-man:2026-10-13",
+ "date": "2026-10-13",
+ "empty": false,
+ "message": null,
+ "more": [
+  {
+   "headline": "Florida Man charged with assaulting 103-year-old grandmother, claims she ‘came at’ him",
+   "id": "0c498ccd61157184",
+   "imageUrl": null,
+   "incidentDate": "2023-10-13",
+   "score": 32,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "behavior: creative excuse",
+    "legal: charges"
+   ],
+   "shareUrl": "/?story=0c498ccd61157184",
+   "sourceName": "New York Daily News",
+   "sourceSite": "https://www.nydailynews.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxOS083Zl9NUnIzSTh6LUlZSjFiR0E3bzl5UWRxRjdaUXJ1a0EyUlJ6eVFhR19ZY1FiQlFidVBuT0xFOGlGSk5TZGxEUHBfaVF0bnRweTd6d0dkdU1vRnFxMWdjb3RKQ2hFamhscTRTNElnTnlhU05qYTZ3d0gtN2lTd1Y2STZScFk?oc=5",
+   "summary": "New York Daily News reported this one on October 13, 2023. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "'That's not my dad': Florida Man charged with kidnapping after allegedly stealing truck with kids inside",
+   "id": "d382295da59e19c8",
+   "imageUrl": null,
+   "incidentDate": "2022-10-13",
+   "score": 32,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "behavior: theft",
+    "legal: charges",
+    "entertainment: self-aware headline"
+   ],
+   "shareUrl": "/?story=d382295da59e19c8",
+   "sourceName": "FOX 35 Orlando",
+   "sourceSite": "https://www.fox35orlando.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxQRUhSZl90YlpGSFJ5c0NHTVVScmIyaW93M19nTXFZYTUxUkFrb0dsMTk4UUo4RW9hbC12cU5CbDF5Zi1JeHpCVGljbWJKaVVzbzZmTk1jS3ppeVpIcURKYmFvV0x5X1NjbWxLektsaXRNclUycExSN0tEckNWeU1wTEROQWdOdGd0TVlNYUM3SDd2S1pqVE9xNnp5WTlCemtnYkpQeHI1eEhPV2dRcDRrS2hzd1AzY21Sc1d4bHRvd1B5Z0E4Y3RkTjRLWFhuWGfSAdQBQVVfeXFMT05MU0x0cUg5dmNqaGo5R09NVTV6NmJJNEhwM1ZkRUNYbDg2aXA0b3MxcVFLd21tSzVVMzlJS3BQTTVHNnZWRkNSTEp1RVg4NFNjNVhuenF3S01vWE9QcloxRFMxeUxiT1R1OUplNnNUMzllZjI4TWtCbUtCaTd4b3FLTUl4TFdKNGJwQXlCNmtyaWxqLXdYWjV5aW5LVnVRencyaUg4RVVmNk1LLVFJUm5NTkFyUUtaSGJtYS1PUFFUZ0pIM082eDY3NkNRUGozb0dqbXo?oc=5",
+   "summary": "FOX 35 Orlando reported this one on October 13, 2022. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man survives Hurricane Ian by hiding in refrigerator",
+   "id": "6302d20781faa1ff",
+   "imageUrl": null,
+   "incidentDate": "2022-10-13",
+   "score": 27,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "florida: Florida weather/geology"
+   ],
+   "shareUrl": "/?story=6302d20781faa1ff",
+   "sourceName": "WESH",
+   "sourceSite": "https://www.wesh.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxORUcwRndFOFBXUW5vX2M4U3ZtMkdmRFhaa1hiOUNUSUc4cW0xZkcxUjhVblN4NmFGdm9aRjkwVXh4MEtZRFB5TUdkbjliUTExYXpwNEY1WjN6VVJGVFVVS3RwT0JibzB4RkRkMUhXcTNBeE1Ib0M2dFJwV1B3eTlMa0xmNVlTYlNM?oc=5",
+   "summary": "WESH reported this one on October 13, 2022. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man sues NFL star Antonio Brown for selling him a fake Richard Mille watch for $160,000. Experts claim the watch is worth a few hundred bucks.",
+   "id": "6b3d25793d8512b7",
+   "imageUrl": null,
+   "incidentDate": "2022-10-13",
+   "score": 27,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "behavior: creative excuse"
+   ],
+   "shareUrl": "/?story=6b3d25793d8512b7",
+   "sourceName": "Luxurylaunches",
+   "sourceSite": "https://luxurylaunches.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPcElUS3Izemt2TkFMMnhwWm1SYkRyQjRBMUItbXY4TWtDYmMwRFBpblRvZmdfc2NvcGlfeUtnM2xoM2pWNUoyRFRWZ1BQUW5fbG1uanR0dE5iUE5OTkp4bXVhSDl0eUw4S0lIWTVzQXpWTkJoUmRNZFBKUWJJZW1SLUVuT0dWN1VI?oc=5",
+   "summary": "Luxurylaunches reported this one on October 13, 2022. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man arrested for drug trafficking following traffic stop in Morgan Co.",
+   "id": "ef8eb5586a559f72",
+   "imageUrl": null,
+   "incidentDate": "2025-10-13",
+   "score": 21,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "legal: arrest"
+   ],
+   "shareUrl": "/?story=ef8eb5586a559f72",
+   "sourceName": "WAFF",
+   "sourceSite": "https://www.waff.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQUjc3X1VhR2hfVy14VzlJSFM5Nmp3VjQ4UjY5NVYzS0FxYmhvV043bTVXbUl2MEZKTjlhR2IzMlhkd2RJbXBCNG1iS2hBVWtRajBsa1RXeDF2bjFCeG9NZEZuWXBDVXkwYWgxeGxEOTdJbVBLNUF5akF4NXlsS2FSQVNPeWdWYkhlOGttN1ZDM0FjWHJsdzE1RkhPUF80YklzOTBkRWV3?oc=5",
+   "summary": "WAFF reported this one on October 13, 2025. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man charged with drug trafficking after Priceville traffic stop",
+   "id": "ea6b47395a586621",
+   "imageUrl": null,
+   "incidentDate": "2025-10-13",
+   "score": 20,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "legal: charges"
+   ],
+   "shareUrl": "/?story=ea6b47395a586621",
+   "sourceName": "rocketcitynow.com",
+   "sourceSite": "https://www.rocketcitynow.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi6wFBVV95cUxQdWVKa1ZKQ0FadHdkLU1hSDlMcTVtTmZRUG1RSEd3dkpqdE5rRklGbnRCTXJFanh6dzUtdjZjajgxdTRTSkY5NDY3ak83OGt2TlhqT1htbnJnTGhRcVVZTUxkQXRmQXRoa2FEdkpBRENxUXFpVzU5X2NxNS1jMUR6bGYtQ05SVm05ZE92bUtfYkc2NUFwcTBIb2w2MHZEbk1MQVlrUXIzV05VSnFSVk0xNE1TbWZNSDRwcWp5NGRBLUFWVWx3MjlLaDNpUWJsaDBCNlRYR1hHa3pvQVREZkxFY0gzWW9kWUhsV0J3?oc=5",
+   "summary": "rocketcitynow.com reported this one on October 13, 2025. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man utilizes plane banner to find wife’s stolen $250K Rolls Royce",
+   "id": "40a2316da92b3825",
+   "imageUrl": null,
+   "incidentDate": "2023-10-13",
+   "score": 15,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [],
+   "shareUrl": "/?story=40a2316da92b3825",
+   "sourceName": "New York Post",
+   "sourceSite": "https://nypost.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQUjhwUm1oYkpPSlJaTXhzM1hYYzlNZjhMZGIxSUVTcmNueEZUSGdmOV9mNVpFNlh1TmVlLXkxLVZfdlRrYjBMSGJvT1R3UXlSRUx5YUtaWmI4Yk91RlJNZTM5T1kxSUZqUjlDZDNxNmpGRnRtVFVRaHpVVVhZNGpsYUV6Q3o2ZlBaQTc1ZkdISGdtMG9rTjJBMm9UTDg4T3NL?oc=5",
+   "summary": "New York Post reported this one on October 13, 2023. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "From scratch to riches: South Florida Man turns $10 into more than $4 million",
+   "id": "41735ffae28035ac",
+   "imageUrl": null,
+   "incidentDate": "2023-10-13",
+   "score": 15,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [],
+   "shareUrl": "/?story=41735ffae28035ac",
+   "sourceName": "WPEC",
+   "sourceSite": "https://cbs12.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxNaFN5Q3pXUGRMU1V4cnljdnFhS2JBclBoT3VnVHR0cFpWa2FSRzVDbl9vd3dzZEJVd29vM3N6QkZfRlBEclM2MWxqLTQ3S0ZIOUhyaFphWlZaWGRlbTh6bEFiNHh5NWZOb05SV1dia3lIQlFCQ3BzbWk1ZGhQczllVVdmeTNLRkVpZ1NSUkhFaHhwUDcyclFkcXhEMUJtcVBmMWQ1bmI5QjhoVjdveHFuQ2k0YXNiMDJjSXJHZnZGM0t1S3ZMUWlFMjBFcUNKUmY5OW1Mb19mbS1zdHF0WFNwV2FBbW5LeHdiMjdjTA?oc=5",
+   "summary": "WPEC reported this one on October 13, 2023. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man gets banjo lessons at Hoggtowne Music",
+   "id": "53290c8a772e6012",
+   "imageUrl": null,
+   "incidentDate": "2025-10-13",
+   "score": 15,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [],
+   "shareUrl": "/?story=53290c8a772e6012",
+   "sourceName": "WCJB",
+   "sourceSite": "https://www.wcjb.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOQ3F2dERLdXlacjZrR3Itck9IUmxZUHJYODJZUkRIdDJ3Vjg3cTVaaGRqXzhMTlA2amJ1T2dxS3NNcm1ydENlT2ZhYVJhcjBFNXJaejBJdUNlanUtWFNFQ3hYZ2pSYzEyTkJKLUVQV0FaeWg2UnJlSk1SdDFBQy1EOEZMdVVUUlNIbG5PNzZB?oc=5",
+   "summary": "WCJB reported this one on October 13, 2025. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  }
+ ],
+ "shareUrl": "/?date=2026-10-13",
+ "story": {
+  "headline": "Florida Man throws alligator through Wendy’s drive-through window, speeds off",
+  "id": "74371e4671062e18",
+  "imageUrl": null,
+  "incidentDate": "2024-10-13",
+  "score": 55,
+  "scoreLabel": "subjective",
+  "scoreMax": 100,
+  "scoreReasons": [
+   "animal: alligator",
+   "behavior: throwing things"
+  ],
+  "shareUrl": "/?story=74371e4671062e18",
+  "sourceName": "MotorBiscuit",
+  "sourceSite": "https://www.motorbiscuit.com",
+  "sourceUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBZWG40QmQ5dW5JVDluNVlQM3h1cXlWUGRMY0J1STZ3MHdkQUZseWhFSTV6Zmg4aTBqMFYydlA2d1RTX21xNm9BT3lSSGVmX2RXQV80NENFY2pKdjhINm1BTXNzQ1NtRE4zbGNOc2RaNi1pTGc?oc=5",
+  "summary": "MotorBiscuit reported this one on October 13, 2024. Full story at the source.",
+  "summarySource": "generated",
+  "town": null
+ },
+ "summaries": {
+  "0c498ccd61157184": {
+   "fetched": 1792021116,
+   "publisherUrl": "https://www.nydailynews.com/2023/10/13/florida-man-assaults-grandma-elder-abuse/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "A 6-foot-3, 237-pound Florida Man is accused of roughing up his 103-year-old grandmother, who he claims “came at” him in their shared Clearwater area home."
+  },
+  "40a2316da92b3825": {
+   "fetched": 1792021184,
+   "publisherUrl": "https://nypost.com/2023/10/13/florida-mogul-utilizes-plane-banner-to-find-wifes-stolen-rolls-royce/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "A Florida businessman took to the skies to hunt down his wife’s rare Rolls-Royce after brazen thieves stole the $250,000 luxury coupe from their garage in broad daylight."
+  },
+  "41735ffae28035ac": {
+   "fetched": 1792021246,
+   "publisherUrl": "https://cbs12.com/news/local/4-four-million-dollars-florida-lottery-from-scratch-to-riches-south-florida-scratches-off-a-new-chapter-in-life-october-13-2023",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "A man going through hard times scratched his way to a new chapter in life."
+  },
+  "53290c8a772e6012": {
+   "fetched": 1792021248,
+   "publisherUrl": "https://www.wcjb.com/video/2025/10/13/florida-man-gets-banjo-lessons-hoggtowne-music/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "Teaching the next generation is the driving force at Hoggtowne Music."
+  },
+  "6302d20781faa1ff": {
+   "fetched": 1792021180,
+   "publisherUrl": "https://www.wesh.com/article/florida-man-survives-hurricane-refrigerator/41610434",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "“So, I opened it up, and I jumped in,” he said."
+  },
+  "6b3d25793d8512b7": {
+   "fetched": 1792021181,
+   "publisherUrl": "https://luxurylaunches.com/celebrities/antonio-brown-fake-richard-mille-watch.php",
+   "retryAt": 1794613181,
+   "status": "rejected",
+   "summary": null
+  },
+  "74371e4671062e18": {
+   "fetched": 1792021115,
+   "publisherUrl": "https://www.motorbiscuit.com/florida-man-throws-alligator-wendys/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "This might just be the most \"Florida\" story ever"
+  },
+  "d382295da59e19c8": {
+   "fetched": 1792021178,
+   "publisherUrl": "https://www.fox35orlando.com/news/thats-not-my-dad-florida-man-charged-with-kidnapping-after-allegedly-stealing-truck-with-kids-inside",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "The sheriff’s office identified the suspect as 37-year-old Kevin Smith."
+  },
+  "ea6b47395a586621": {
+   "fetched": 1792021183,
+   "publisherUrl": "https://www.rocketcitynow.com/article/news/local/florida-man-charged-with-drug-trafficking-priceville-traffic-stop/525-5cb2c35f-af9a-4e9c-8031-44e2c44b129e",
+   "retryAt": 1792107583,
+   "status": "failed",
+   "summary": null
+  },
+  "ef8eb5586a559f72": {
+   "fetched": 1792021182,
+   "publisherUrl": "https://www.waff.com/2025/10/13/florida-man-arrested-drug-trafficking-following-traffic-stop-morgan-co/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "A Florida Man was arrested following a traffic stop along I-65 in Morgan County early Monday morning."
+  }
+ },
+ "yearsSearched": [
+  2025,
+  2024,
+  2023,
+  2022
+ ]
+}

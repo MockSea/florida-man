@@ -1,0 +1,275 @@
+{
+ "cacheKey": "florida-man:2026-09-19",
+ "date": "2026-09-19",
+ "empty": false,
+ "message": null,
+ "more": [
+  {
+   "headline": "WATCH: Greedy alligator steals Florida Man’s lawn chair",
+   "id": "422ecc809fa23357",
+   "imageUrl": null,
+   "incidentDate": "2023-09-19",
+   "score": 53,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "animal: alligator",
+    "behavior: theft"
+   ],
+   "shareUrl": "/?story=422ecc809fa23357",
+   "sourceName": "WFLA",
+   "sourceSite": "https://www.wfla.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOT2w2TllZZGg2THZyUjZycFM0TFZyYXY1U0JlVFhvVE1nT3NsRW9ZMmlHYVpaamw3cVVTQXVlODVlc0o4R3FWOHFxVllGWS1za0pEYzRnU243WC15M2xxYmhnWU44Ylc3WlpCbF9IR2x4Z3JhcUdKWWxDTFZCODZlYW41dzU1cTNRS3U5MHV5TS1MUdIBlwFBVV95cUxORXd5RnNQc3AxRGJmQ3hsUnIwZUtBWnlTQWRTc0JyaTU4dG5YdHZZWkE4RHRKQkg0bnItOUR3NHd1R0RJUV9KUHFBUm1uaDBVdUQwV0pHdWdBY3VCMVNKQzRXMUdrWnl2Rm41a2lYa3ZZYU1ZLTNZbXBuWWxQblM5Rnd1S1lfMnB6elgxQWNrWHNrejkxM3Zz?oc=5",
+   "summary": "WFLA reported this one on September 19, 2023. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man Goes Out for a Sandwich, Comes Home with a $5 Million Lottery Ticket",
+   "id": "8b5021fdfa14cd8f",
+   "imageUrl": null,
+   "incidentDate": "2023-09-19",
+   "score": 29,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "object: food"
+   ],
+   "shareUrl": "/?story=8b5021fdfa14cd8f",
+   "sourceName": "People.com",
+   "sourceSite": "https://people.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQY2lrMlgxRVFlcjVtT1AxQ3pCNEJnWFBjdW8ydzVjVEhUQnVmOVNjTGdoaTM0aGlQRU1mYjRzMDNYV1VYWGJwbVg4VzQ4ZDhpWFYtblY2LWtZdTVkS0hCdjR4TEJITUgzQlh5NlQtT09Yc0tReVVGQ2dSU0FmVDREOTl4QUkzbzZ2SE9uTTZ4LWZTVTFkUzlybg?oc=5",
+   "summary": "People.com reported this one on September 19, 2023. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Meet the Florida Man Who Survived Days Lost in Swamp After Gator Took His Arm: 'I'm No Longer Afraid of Death'",
+   "id": "f32a1b5b8cae2308",
+   "imageUrl": null,
+   "incidentDate": "2022-09-19",
+   "score": 29,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "animal: alligator",
+    "florida: swampland",
+    "penalty: grim story"
+   ],
+   "shareUrl": "/?story=f32a1b5b8cae2308",
+   "sourceName": "People.com",
+   "sourceSite": "https://people.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOaTFFb2U2amR1ZEhUOUpmb0tuenZQRVRHRDF3Y3o3SmRJZ19kMHdPZjRBbWNnWUVybjdCaFR3ZEN6MTZQZ0VqdXRqeXBJTmtHekJxYVFYN3FXcFN0Nld5SDM1NUI4ekQ2UG0zNlFXc3VDQ0hBeW04cmdLOXVDX0hxNHNlNXZOUlN4ejlReVhiUkg0T1dKYllXZU5YX0hUSTh5b2tz?oc=5",
+   "summary": "People.com reported this one on September 19, 2022. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Deputies: Florida Man pulls gun on partygoers who tried to stop him from driving drunk",
+   "id": "b8ab64eb7e97b1e1",
+   "imageUrl": null,
+   "incidentDate": "2022-09-19",
+   "score": 28,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "behavior: impaired",
+    "legal: law enforcement"
+   ],
+   "shareUrl": "/?story=b8ab64eb7e97b1e1",
+   "sourceName": "WEAR TV",
+   "sourceSite": "https://weartv.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPSFV3aEFfeUdERHFyTm5DTl9idWRxZm8tWkpjSVdCdHFRX211SHJ0b190alFYbGltWnM4N2pCVlRKYWJkWmwxZXBOUzNSRlhMeWUwQUdwREdTNWJ1dEw3bEt5QXFQdVM3WGlyaEoyWWY3a2dob20wLWcyaGJoWlh3X3Nxb1RaUXJ5SmM4UDZBMzhKWUpvZlJjWktmeE5zX3dYOHlJcXI1ZXMyd0NYYXJfZEkxOWpMQQ?oc=5",
+   "summary": "WEAR TV reported this one on September 19, 2022. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man arrested in Hart County on DUI charge",
+   "id": "49827b7f934db5d4",
+   "imageUrl": null,
+   "incidentDate": "2025-09-19",
+   "score": 21,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "legal: arrest"
+   ],
+   "shareUrl": "/?story=49827b7f934db5d4",
+   "sourceName": "WNKY",
+   "sourceSite": "https://www.wnky.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5oTWxUcm9acXpnUW4xSkI4UktYb2o2Y3NTZUFCQWJEdzBtMzhYbmxUaUVxeXNrSXh6R3lGNWhBa3pxd2lZLTF4ZG9xM3AwdnRyMVNDamp2a1p2WDdZUFBnUnZGTHVaS21rTXF6blJ6d0ZzbUJnZUZtems1TQ?oc=5",
+   "summary": "WNKY reported this one on September 19, 2025. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man turned $3 into $3 million playing Mega Millions",
+   "id": "2c5880fd994ef8ff",
+   "imageUrl": null,
+   "incidentDate": "2024-09-19",
+   "score": 15,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [],
+   "shareUrl": "/?story=2c5880fd994ef8ff",
+   "sourceName": "CBS News",
+   "sourceSite": "https://www.cbsnews.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxPWms0WGNkbWdfVjc1dWhQMi1zbkRSSWVvQk9GdWZ4QVUwaldFWmRqeU54NWZRVndMQjNrZ2k2cHdCd0dMRGRyMXQ2SGJ4TW5XcE5xd2VSR2c4bVZoMm8zVzNjd3VHeWFWWERTV3VFMm5KUlNKTjlUVmFJQkJoVF96UEdieTFldFBfOE1HVmYtNVJVRHBtbDRnNA?oc=5",
+   "summary": "CBS News reported this one on September 19, 2024. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Florida Man Should Be Ashamed For Not Making A Better Effort To Catch Shohei Ohtani’s 50-50 Record-Breaking Home Run Ball",
+   "id": "4b97c4d54edeb40d",
+   "imageUrl": null,
+   "incidentDate": "2024-09-19",
+   "score": 15,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [],
+   "shareUrl": "/?story=4b97c4d54edeb40d",
+   "sourceName": "Whiskey Riff",
+   "sourceSite": "https://www.whiskeyriff.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi8gFBVV95cUxQeTJvTUZRa2s2dVZkcjF2MGxUUzM0UnZ3NE1rNVRyMjUtLWNXRTc3bjZ3Z3UwbHh6aGJ0MTZvVDVueUN0RWJLLUxnQnhGbnBQMkpSdkt6OWU0TWsxYWhsb0RUVVFWWmhEVlRQOTI4aktIdlNtUFZFQ2FjbEw2M1ZkU0MyS1hGQTh6SzctanpGdXRzYmlQTG1kNTNJTjlRMHpJc1ZlQ1hVNjNYNGtBOWR5dFlDNGRramQzVG14dGh2bHpLSnJtUTVEUENqcFVWeDQyVDFFanY5ZnBKMmNlX1FiOVZPYmRBR1VSQkFJUjJ0UjUzUQ?oc=5",
+   "summary": "Whiskey Riff reported this one on September 19, 2024. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "‘I don’t think any property is safe’: South Florida Man says he almost became a victim to AI real estate fraud",
+   "id": "7830c7d485fc80ff",
+   "imageUrl": null,
+   "incidentDate": "2024-09-19",
+   "score": 15,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [],
+   "shareUrl": "/?story=7830c7d485fc80ff",
+   "sourceName": "WSVN",
+   "sourceSite": "https://wsvn.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNZU9ncll6b2tvbzBkOWZfaW83V0pjZU93Tzg3anpFVTJTeVNOZ05nOFdLMEVsblBycVBrdUptOFNvcGVOWDkxVXdQRkVJczU0aHM0eUtZRTBoMkJJNlQwWG5Oa19DTXUzcW94QkJYT1BRSGFIVFB2endQZHk3NEs4UF9XbVBDcWpuYTNTd3dmcEJrWEkza19CM2tqbTRuY09sR1FrY0pmNkJpSzFFdnZ6WDFqUW43eV96OW5ZMjZackp3V3hwcVFQYnp2UURzaHY5RmJlSGNuamdpWlc5?oc=5",
+   "summary": "WSVN reported this one on September 19, 2024. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "A South Florida Man builds ‘the baddest trucks on the planet.’ His family business is the subject of a new reality show",
+   "id": "a1b2d60d9d9ca6f3",
+   "imageUrl": null,
+   "incidentDate": "2025-09-19",
+   "score": 15,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [],
+   "shareUrl": "/?story=a1b2d60d9d9ca6f3",
+   "sourceName": "WSVN",
+   "sourceSite": "https://wsvn.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxOT2owUTg1a0cyeHpEMXVaRlRCVkxvUVRaNEozc1YxUHlIZXNXNUJtWGppZDkwSUJyRWZOU1Z0UnFCSTZrd0tSWUVPT0FTMGNCYkxGVjBwcEJWUU00Y3EzdVhCN192Z0pnUnZMaV80c2txZFhOeGctUVc5dzlrcmpPM0UwMG1fc2x4cFhuWWJmbkVMVS04WlUwQ1c4aWJSQ2ItOFd4NmNGY3A3N2FSZXRVM0Zfc25JUzdaUjA4NUozTWprWVhybHJwS1JYdzh2SkFoWE05SVJJYlJfMU1URVJ3S2RMMDE?oc=5",
+   "summary": "WSVN reported this one on September 19, 2025. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  }
+ ],
+ "shareUrl": "/?date=2026-09-19",
+ "story": {
+  "headline": "Florida Man Arrested for Keeping Alligators and Turtles on His Property",
+  "id": "c65625f1adcc9d73",
+  "imageUrl": null,
+  "incidentDate": "2024-09-19",
+  "score": 56,
+  "scoreLabel": "subjective",
+  "scoreMax": 100,
+  "scoreReasons": [
+   "animal: alligator",
+   "animal: reptile/amphibian",
+   "legal: arrest"
+  ],
+  "shareUrl": "/?story=c65625f1adcc9d73",
+  "sourceName": "97X",
+  "sourceSite": "https://97x.com",
+  "sourceUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE15SUptb1VuLUFOdXFld2R6NmhFWWV2dm9GQ1p4YWp4TDE5dmhHbDVmOHRoeFBZN09ad3dqRHM0UVI1NkZtcnd0NkRXaGpUVXpjRWFLaG9SRlNXWWxkVXJ3?oc=5",
+  "summary": "97X reported this one on September 19, 2024. Full story at the source.",
+  "summarySource": "generated",
+  "town": null
+ },
+ "summaries": {
+  "2c5880fd994ef8ff": {
+   "fetched": 1792023873,
+   "publisherUrl": "https://www.cbsnews.com/miami/news/florida-man-turned-3-into-3-million-playing-mega-millions/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "The Florida Lottery said Mega Millions has created 149 millionaires in Florida, including five jackpot winners."
+  },
+  "422ecc809fa23357": {
+   "fetched": 1792023817,
+   "publisherUrl": "https://www.wfla.com/news/florida/watch-greedy-alligator-steals-florida-mans-lawn-chair/",
+   "retryAt": 1792110217,
+   "status": "failed",
+   "summary": null
+  },
+  "49827b7f934db5d4": {
+   "fetched": 1792023831,
+   "publisherUrl": "https://www.wnky.com/florida-man-arrested-in-hart-county-on-dui-charge/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "BONNIEVILLE, Ky. – A Florida Man has been arrested after authorities say he reached speeds over 100 miles per hour while driving under the influence."
+  },
+  "4b97c4d54edeb40d": {
+   "fetched": 1792023884,
+   "publisherUrl": "https://www.whiskeyriff.com/2024/09/19/florida-man-should-be-ashamed-for-not-making-a-better-effort-to-catch-shohei-ohtanis-50-50-record-breaking-home-run-ball/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "Come on, Florida Man. First of all, are you at a Miami Marlins game in the first place, wearing their jersey, as some sort of sadistic punishment for finishing last in your fantasy football league last year? Or are you just in the habit…"
+  },
+  "7830c7d485fc80ff": {
+   "fetched": 1792023886,
+   "publisherUrl": "https://wsvn.com/news/investigations/i-dont-think-any-property-is-safe-south-florida-man-says-he-almost-became-a-victim-to-ai-real-estate-fraud/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "(WSVN) - Artificial intelligence is now being used in real estate fraud here in South Florida, and it almost cost one local man his savings.Read More"
+  },
+  "8b5021fdfa14cd8f": {
+   "fetched": 1792023818,
+   "publisherUrl": "https://people.com/florida-man-collects-5-million-lottery-win-from-scratch-off-ticket-7971584",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "A 44-year-old Florida Man named Travis Hall purchased a lottery ticket while grabbing a sandwich for lunch."
+  },
+  "a1b2d60d9d9ca6f3": {
+   "fetched": 1792023897,
+   "publisherUrl": "https://wsvn.com/news/7spotlight/a-south-florida-man-builds-the-baddest-trucks-on-the-planet-his-family-business-is-the-subject-of-a-new-reality-show/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "(WSVN) - A South Florida family is revving up reality TV."
+  },
+  "b8ab64eb7e97b1e1": {
+   "fetched": 1792023830,
+   "publisherUrl": "https://weartv.com/news/local/deputies-florida-man-pulls-gun-on-partygoers-who-tried-to-stop-him-from-driving-drunk",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "WALTON COUNTY, Fla. -- Walton County deputies say a 21-year-old man pointed a loaded handgun at partygoers who tried to stop him from driving drunk.Corbin Minte"
+  },
+  "c65625f1adcc9d73": {
+   "fetched": 1792023806,
+   "publisherUrl": "https://97x.com/florida-man-alligator-pool-arrest/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "A Florida Man has been arrested after authorities discovered he was illegally keeping alligators and freshwater slider turtles on his property."
+  },
+  "f32a1b5b8cae2308": {
+   "fetched": 1792023829,
+   "publisherUrl": "https://people.com/human-interest/alligator-attack-survivor-eric-merda-says-he-no-longer-fears-death/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "An afternoon hike through the Florida backcountry turned into a life-and-death struggle for Eric Merda"
+  }
+ },
+ "yearsSearched": [
+  2025,
+  2024,
+  2023,
+  2022
+ ]
+}

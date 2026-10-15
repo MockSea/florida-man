@@ -1,0 +1,278 @@
+{
+ "cacheKey": "florida-man:2026-10-10",
+ "date": "2026-10-10",
+ "empty": false,
+ "message": null,
+ "more": [
+  {
+   "headline": "Shirtless Florida Man risks it all, running during Hurricane Milton",
+   "id": "08325bfaaa4a21e1",
+   "imageUrl": null,
+   "incidentDate": "2024-10-10",
+   "score": 27,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "florida: Florida weather/geology"
+   ],
+   "shareUrl": "/?story=08325bfaaa4a21e1",
+   "sourceName": "Canadian Running Magazine",
+   "sourceSite": "https://runningmagazine.ca",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQNFVJUFBvQ0tLUUdENEtwNkJabzBSS2ZydFBMYTQ3SEQwYkp6Z21PU1JsZXVyNW5vWnk0Y1p2a0pOUTFCY2YtclJfb2QxT0pzWHJnaTZKa05ZcW9XbVRONVhnNS1PQXh0N2RXbTBEajI3cDZMTFR4MmtkcVZZU0pSY0FwU0wzbllxenBkeTFUdTJXc19Tci1LNEUwMWhWSGd2RXRIYnhQbw?oc=5",
+   "summary": "Canadian Running Magazine reported this one on October 10, 2024. Full story at the source.",
+   "summarySource": "generated",
+   "town": "Milton"
+  },
+  {
+   "headline": "'I made it through unscathed', says Florida Man who rode out Hurricane Milton on boat",
+   "id": "0e79af5e38f8b3cc",
+   "imageUrl": null,
+   "incidentDate": "2024-10-10",
+   "score": 27,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "florida: Florida weather/geology"
+   ],
+   "shareUrl": "/?story=0e79af5e38f8b3cc",
+   "sourceName": "London Evening Standard",
+   "sourceSite": "https://www.standard.co.uk",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQaURBX3FpTG5xeGUzenVNNjdpVlE0V0lRYlh6dVlHbUhIV3R3Zkd3bXFZWVZIUDBCMm1wUzBObmt5ZnRKTDdYdEpUSHpuSkRWSEo3eEhSUTE0b1NGYk11VGl0eV9LcjJGUW9sN0xVVnFMRFF0cFl2TzVhNFMyUzFXc2w1dG55NzhBd2hEV2N2OEFSMnByWmZGSGo1cl9hX0lrcV9fb0NUMDAwSUNrT0JYNWpqeTQ?oc=5",
+   "summary": "London Evening Standard reported this one on October 10, 2024. Full story at the source.",
+   "summarySource": "generated",
+   "town": "Milton"
+  },
+  {
+   "headline": "Florida Man straps his whole house to ground as Hurricane Milton barrels down",
+   "id": "2d8c04eed4c4e286",
+   "imageUrl": null,
+   "incidentDate": "2024-10-10",
+   "score": 27,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "florida: Florida weather/geology"
+   ],
+   "shareUrl": "/?story=2d8c04eed4c4e286",
+   "sourceName": "Daily Express US",
+   "sourceSite": "https://www.the-express.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNb2lBS0RjRGNQdXlZLXFsQXh2VF9nQVpsdWJBZWtkZGVMMzMtMUtDeFJwak1RSnpMSDd4TFZoSTNId0lSYmk4cGVCTkdoWUxjLXZwWDBFYkNpM29pSVhrWnRINExXQTM3bHg3cG50eUVRV3B1S3hnMHR0UlhYS0dheVFRZkdMWEtOVmo5QlhiOUVmckVSNVIyWlNrb2Rpb3EtT3BQTnY2Y2hScmppekJ6a0530gG3AUFVX3lxTE9HVHJHcXRkVnBmdGFkb2JSWEM0MzBRZjJUcnJ1SjU5bDUxNFB0S3BxYmRUNUpuZ0JLdVFRQlpDVDBYSnFUTTB5TVFLV2pNano3UE54Yk9GUTBPWjcyNGxPLTk2ei1oVzE0WHhjUmFCazdRTEtuUlU5RTZqbVIwbjRpU2JZU1dSMFhUdlhNZ2F6NVZUUGswV0VGWmtXM2NoQ3laUnBMUnltNmFhNlhmcWJsejNxRzgzVQ?oc=5",
+   "summary": "Daily Express US reported this one on October 10, 2024. Full story at the source.",
+   "summarySource": "generated",
+   "town": "Milton"
+  },
+  {
+   "headline": "‘That’s America:’ Florida Man catches fish IN STREET day after Hurricane Milton",
+   "id": "336b3fb1d69e223a",
+   "imageUrl": null,
+   "incidentDate": "2024-10-10",
+   "score": 27,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "florida: Florida weather/geology"
+   ],
+   "shareUrl": "/?story=336b3fb1d69e223a",
+   "sourceName": "WKMG",
+   "sourceSite": "https://www.clickorlando.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPdkctQ0VvOVVKWVA5akNsNVdRRjJvQ1dmQzVhR1ZvVGxRNzdzTEtBRjFlVDE4UXBPcU9hUmxacmdDREVZeW5QT0VGU3VMTFVOamFqck5oZmNLSlRJOEpWaXdOajduLWZkUGkzX0c5Zm90cUVIOG91eXFGRXNKQWFRWUM5TVAyaWswSjQzWDkzZVl4RFhTVi1ZMC01bndEbEo2bXhtYXF5YktCV1FjeVpjUmw5SDh2VW5ZTzRKOC1KVlNUY3dfLWc?oc=5",
+   "summary": "WKMG reported this one on October 10, 2024. Full story at the source.",
+   "summarySource": "generated",
+   "town": "Milton"
+  },
+  {
+   "headline": "Florida Man ‘Lt. Dan’ survives Hurricane Milton in sailboat",
+   "id": "380291b4633430df",
+   "imageUrl": null,
+   "incidentDate": "2024-10-10",
+   "score": 27,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "florida: Florida weather/geology"
+   ],
+   "shareUrl": "/?story=380291b4633430df",
+   "sourceName": "New York Daily News",
+   "sourceSite": "https://www.nydailynews.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOYmRJZ05YSjhHOVY1dTM5bEJuSWEtUVl4VDZtU1VPM3dYb1VDYnZBcTNNUGRTQUo2U2hUaXFIbjRma2FSQ1VmLVZKdEZ1Z1MzVWlCTUxFQUJLS25uWDJtaEFJa0pxcExHQ0FJV05fR1BIU3o1LXRUSW5CcmlaNXczdHZ1c3AxX2ktX3Q0MGF3VGRsLUk?oc=5",
+   "summary": "New York Daily News reported this one on October 10, 2024. Full story at the source.",
+   "summarySource": "generated",
+   "town": "Milton"
+  },
+  {
+   "headline": "'If you don't laugh, you'll cry': Florida Man struggles after restaurant gutted by Hurricane Ian",
+   "id": "47a0258334b6069b",
+   "imageUrl": null,
+   "incidentDate": "2022-10-10",
+   "score": 27,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "florida: Florida weather/geology"
+   ],
+   "shareUrl": "/?story=47a0258334b6069b",
+   "sourceName": "FOX Weather",
+   "sourceSite": "https://www.foxweather.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNSmJaakV6aFcyUWFLM25tUWdIa09KT2hvejd4RkRqLUxkejFIRExPOEFWN2xQYTBnYTRXNE1HYzBPSXRFTzdKQUdGay1XM2RhZXFtaFhEV0ZFOTdHREFTUW9BRlZhbl8zVHpaNHo0eUpCLW9qMk5WTC1ucjM5Y29jWjl6enJoZ9IBiwFBVV95cUxQMmtGVk0tVlRuNnpEX0lRbWE4YjFEZG83V1VkSlViRFRRWEFHX3pUZFlrNFJRUHpYcW9fZ3pydi1ZVk9UcEtiS3l4UzhlNWZOSmNOQWFiZVUyUDlRNEF4Q1hXaUxUYl9LWmNmbkRxOTF3Snd6UHhoQTc2d0p2TlFfd3Vnc2tpNHZrMlEw?oc=5",
+   "summary": "FOX Weather reported this one on October 10, 2022. Full story at the source.",
+   "summarySource": "generated",
+   "town": null
+  },
+  {
+   "headline": "Topless Florida Man jogs outside as Category 3 Hurricane Milton approaches",
+   "id": "67cb069ccf708237",
+   "imageUrl": null,
+   "incidentDate": "2024-10-10",
+   "score": 27,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "florida: Florida weather/geology"
+   ],
+   "shareUrl": "/?story=67cb069ccf708237",
+   "sourceName": "The Independent",
+   "sourceSite": "https://www.independent.co.uk",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxNbkNHMGMtazlJR0k4MFc1bVl6V0t6SV9HcHRMM3NiZWtzT2ZYeHpWeDBTQ01LemhINFdGUTVkdXRJdmFxZzBwclZVenU0YmU4aGkzR2ltZFJWdTAteGJMNUVJVUZobW5tR2liZnl4MjFBbHRkalhTNWZ2dkk5aVdkeDlxZFU4TmtKTnlCUkdRWQ?oc=5",
+   "summary": "The Independent reported this one on October 10, 2024. Full story at the source.",
+   "summarySource": "generated",
+   "town": "Milton"
+  },
+  {
+   "headline": "Officials Tried to Help Viral Florida Man 'Lt. Dan' Before Hurricane Milton, but He Chose to Stay in His Boat",
+   "id": "6f9d49fcd880dc5a",
+   "imageUrl": null,
+   "incidentDate": "2024-10-10",
+   "score": 27,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "florida: Florida weather/geology"
+   ],
+   "shareUrl": "/?story=6f9d49fcd880dc5a",
+   "sourceName": "People.com",
+   "sourceSite": "https://people.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQenNUXzdEbnJMenppS2JQb3BqZzFKQ3ZrOHB5RVpDd3pJNm52V3l5TW1KRlRSSnJLTmg4Q0ZCU29VVXpOS2RLeTJzTy1acXJBWFZvc1VpOGN4c0JyeDdMM09hTTUwQUY5QXEybzNLbXVYbS1KVVZ1cnl5NDlFbGktNURxUnlHamJBSHF3MkJGdDlFNWhqZk5DbFBUeHE4Y3Z0UkVucDNLUTh6RC1aazlOLXBfbk9qenNURGZGSUJzM3lRTzlKSXhzazI3c3Q?oc=5",
+   "summary": "People.com reported this one on October 10, 2024. Full story at the source.",
+   "summarySource": "generated",
+   "town": "Milton"
+  },
+  {
+   "headline": "Florida Man who strapped his entire house down ahead of Hurricane Milton becomes internet sensation",
+   "id": "81c2582d5783fce0",
+   "imageUrl": null,
+   "incidentDate": "2024-10-10",
+   "score": 27,
+   "scoreLabel": "subjective",
+   "scoreMax": 100,
+   "scoreReasons": [
+    "florida: Florida weather/geology"
+   ],
+   "shareUrl": "/?story=81c2582d5783fce0",
+   "sourceName": "Daily Mail",
+   "sourceSite": "https://www.dailymail.com",
+   "sourceUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOSXdjRklXRFdPQ05jT1pQSlVCYTlEOXBocmE3TDBPT1VpM3F5UDNtUTQwRkRDZGlFMWhsaXYzdHI4dVMtazdBNFFMNlBrY3JGbmt5aGpnVDJ3akloa2d0NjhZTHkyb21tdHdMcHBFRzhOZ0lHM0ZqLWRBZE5kQ1B1Z1BycGg5VjVYcmJCYUZXOUtITkhVTXd4NUF2d1VfUFVuYVVQcGRxVdIBrAFBVV95cUxNZmxBTHMxdWRuUDdaVmtKTXNFTmRTNWJlQWpzVkZMeHAwbExVaWExMkFLR25MdWlQNTdWWmdHbGFVRFdpZmFXQ01zclFRcXNWejlSYWtPd2hCMURmX0dxUFBUQWUxRmxtQkpzblYxMmY5QWVGWkJPajZSMV9kMGZRY280SzJBQ21HMmhKVm9tWDhrQVRTT2k5RlBmYkgyVC1ibVNVTW5Uc0VRdkg3?oc=5",
+   "summary": "Daily Mail reported this one on October 10, 2024. Full story at the source.",
+   "summarySource": "generated",
+   "town": "Milton"
+  }
+ ],
+ "shareUrl": "/?date=2026-10-10",
+ "story": {
+  "headline": "Who is Lieutenant Dan on TikTok? Florida Man on boat goes viral amid Hurricane Milton",
+  "id": "c1bc467e57d92639",
+  "imageUrl": null,
+  "incidentDate": "2024-10-10",
+  "score": 31,
+  "scoreLabel": "subjective",
+  "scoreMax": 100,
+  "scoreReasons": [
+   "florida: Florida weather/geology",
+   "entertainment: punctuation"
+  ],
+  "shareUrl": "/?story=c1bc467e57d92639",
+  "sourceName": "Dexerto",
+  "sourceSite": "https://www.dexerto.com",
+  "sourceUrl": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObURZVGJJN3BwS2lCeWx3WVNBZDJPT2hGMEdvdWFfQVdoZ1hkbmZwWWRvLTNoOHVNby1aaVNEY09MRnJQWGc0Y3FIMFZPZkN1V3pLUFNvN3lvb2dNb0xLekc5U3U0VU5UTHJSRDR4UXByRXdSUEJTTVBQbXBBQnNkZHBoaEdmSS1BOUhGT1MycXNoNlRraWpieEVWYlJacFduREcyQ0pmSGwzSVluVWhuV3FCVE1rSWpLTjF3eVRWMFBGaTVaMllF?oc=5",
+  "summary": "Dexerto reported this one on October 10, 2024. Full story at the source.",
+  "summarySource": "generated",
+  "town": "Milton"
+ },
+ "summaries": {
+  "08325bfaaa4a21e1": {
+   "fetched": 1792021458,
+   "publisherUrl": "https://runningmagazine.ca/the-scene/shirtless-florida-man-risks-it-all-running-during-hurricane-milton/",
+   "retryAt": 1794613458,
+   "status": "rejected",
+   "summary": null
+  },
+  "0e79af5e38f8b3cc": {
+   "fetched": 1792021510,
+   "publisherUrl": "https://www.standard.co.uk/news/world/hurricane-milton-florida-lieutenant-dan-boat-joseph-malinowski-b1186975.html",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "Joseph Malinowski refused to leave his boat - telling followers he hadn’t even spilled his coffee amid 120mph winds"
+  },
+  "2d8c04eed4c4e286": {
+   "fetched": 1792021511,
+   "publisherUrl": "https://www.the-express.com/news/us-news/151244/florida-man-goes-viral-with-unusual-hurricane-milton-preparation",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "A man in Orlando, Florida has gone viral after a photo of his house being strapped to the ground was shared by local news."
+  },
+  "336b3fb1d69e223a": {
+   "fetched": 1792021523,
+   "publisherUrl": "https://www.clickorlando.com/news/local/2024/10/10/thats-america-florida-man-catches-fish-in-street-day-after-hurricane-milton/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "Two men caught a large bass on a flooded Orlando road on Thursday as a man on a riding mower came cruising down the middle of the drenched street – a moment of much-needed levity after days of wondering what Hurricane Milton would bring…"
+  },
+  "380291b4633430df": {
+   "fetched": 1792021523,
+   "publisherUrl": "https://www.nydailynews.com/2024/10/10/florida-lt-dan-survives-hurricane-milton-sailboat/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "Joseph Malinowski earned the nickname from the “Forrest Gump” character for riding out a hurricane on the water."
+  },
+  "47a0258334b6069b": {
+   "fetched": 1792021525,
+   "publisherUrl": "https://www.foxweather.com/extreme-weather/lost-restaurant-florida-business-ian",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "Kyle Sherman's life changed forever when Hurricane Ian made landfall in Southwest Florida, but he vows to reopen the restaurant that was his livelihood before the storm destroyed it."
+  },
+  "67cb069ccf708237": {
+   "fetched": 1792021527,
+   "publisherUrl": "https://www.independent.co.uk/tv/news/florida-man-hurricane-milton-video-b2627271.html",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "A topless Florida Man jogged outside in Tampa despite the imminent Category 3 Hurricane Milton on Wednesday, 9 October."
+  },
+  "6f9d49fcd880dc5a": {
+   "fetched": 1792021578,
+   "publisherUrl": "https://people.com/officials-tried-to-help-viral-florida-man-lt-dan-before-hurricane-milton-but-he-chose-to-stay-in-his-boat-8725877",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "Authorities say they offered evacuation help to a Tampa, Fla., resident who recently went viral on TikTok for not leaving his sailboat ahead of Hurricane Milton — but he is staying put"
+  },
+  "81c2582d5783fce0": {
+   "fetched": 1792021581,
+   "publisherUrl": "https://www.dailymail.com/lifestyle/article-13942993/florida-man-strap-house-hurricane-milton-viral.html",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "Tampa resident Mohammed Nijem recently went viral after local news outlet Spectrum Bay News 9 shared an image of the extreme preparations that he took ahead of Hurricane Milton to X."
+  },
+  "c1bc467e57d92639": {
+   "fetched": 1792021456,
+   "publisherUrl": "https://www.dexerto.com/tiktok/who-is-lieutenant-dan-on-tiktok-florida-man-on-boat-goes-viral-as-hurricane-milton-nears-2922971/",
+   "retryAt": null,
+   "status": "ok",
+   "summary": "A man who goes by the name Lieutenant Dan on TikTok has gone viral after attempting to stay on his boat during Hurricane Milton."
+  }
+ },
+ "yearsSearched": [
+  2025,
+  2024,
+  2023,
+  2022
+ ]
+}

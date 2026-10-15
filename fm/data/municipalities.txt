@@ -1,0 +1,413 @@
+# Florida incorporated municipalities (cities, towns, villages).
+# One per line. Lines starting with # are ignored. Hand-compiled; broad but not guaranteed exhaustive.
+Alachua
+Alford
+Altamonte Springs
+Altha
+Anna Maria
+Apalachicola
+Apopka
+Arcadia
+Archer
+Astatula
+Atlantic Beach
+Atlantis
+Auburndale
+Aventura
+Avon Park
+Bal Harbour
+Baldwin
+Bartow
+Bascom
+Bay Harbor Islands
+Bay Lake
+Bell
+Belle Glade
+Belle Isle
+Belleair
+Belleair Beach
+Belleair Bluffs
+Belleair Shore
+Belleview
+Beverly Beach
+Biscayne Park
+Blountstown
+Boca Raton
+Bonifay
+Bonita Springs
+Bowling Green
+Boynton Beach
+Bradenton
+Bradenton Beach
+Branford
+Briny Breezes
+Bristol
+Bronson
+Brooker
+Brooksville
+Bunnell
+Bushnell
+Callahan
+Callaway
+Campbellton
+Cape Canaveral
+Cape Coral
+Carrabelle
+Caryville
+Casselberry
+Cedar Key
+Center Hill
+Century
+Chattahoochee
+Chiefland
+Chipley
+Cinco Bayou
+Clearwater
+Clermont
+Clewiston
+Cloud Lake
+Cocoa
+Cocoa Beach
+Coconut Creek
+Coleman
+Cooper City
+Coral Gables
+Coral Springs
+Cottondale
+Crescent City
+Crestview
+Cross City
+Crystal River
+Cutler Bay
+Dade City
+Dania Beach
+Davenport
+Davie
+Daytona Beach
+Daytona Beach Shores
+DeBary
+Deerfield Beach
+DeFuniak Springs
+DeLand
+Delray Beach
+Deltona
+Destin
+Doral
+Dundee
+Dunedin
+Dunnellon
+Eagle Lake
+Eatonville
+Ebro
+Edgewater
+Edgewood
+El Portal
+Esto
+Estero
+Eustis
+Everglades City
+Fanning Springs
+Fellsmere
+Fernandina Beach
+Flagler Beach
+Florida City
+Fort Lauderdale
+Fort Meade
+Fort Myers
+Fort Myers Beach
+Fort Pierce
+Fort Walton Beach
+Fort White
+Freeport
+Frostproof
+Fruitland Park
+Gainesville
+Glen Ridge
+Glen St. Mary
+Golden Beach
+Golf
+Graceville
+Grand Ridge
+Grant-Valkaria
+Green Cove Springs
+Greenacres
+Greensboro
+Greenville
+Greenwood
+Gretna
+Groveland
+Gulf Breeze
+Gulf Stream
+Gulfport
+Haines City
+Hallandale Beach
+Hampton
+Havana
+Haverhill
+Hawthorne
+Hialeah
+Hialeah Gardens
+High Springs
+Highland Beach
+Highland Park
+Hillcrest Heights
+Hilliard
+Hillsboro Beach
+Holly Hill
+Hollywood
+Holmes Beach
+Homestead
+Horseshoe Beach
+Howey-in-the-Hills
+Hypoluxo
+Indialantic
+Indian Creek
+Indian Harbour Beach
+Indian River Shores
+Indian Rocks Beach
+Indian Shores
+Indiantown
+Inglis
+Interlachen
+Inverness
+Islamorada
+Jacksonville
+Jacksonville Beach
+Jacob City
+Jasper
+Jay
+Jennings
+Juno Beach
+Jupiter
+Jupiter Inlet Colony
+Jupiter Island
+Kenneth City
+Key Biscayne
+Key Colony Beach
+Key West
+Keystone Heights
+Kissimmee
+La Crosse
+LaBelle
+Lady Lake
+Lake Alfred
+Lake Buena Vista
+Lake Butler
+Lake City
+Lake Clarke Shores
+Lake Hamilton
+Lake Helen
+Lake Mary
+Lake Park
+Lake Placid
+Lake Wales
+Lake Worth Beach
+Lakeland
+Lantana
+Largo
+Lauderdale Lakes
+Lauderdale-by-the-Sea
+Lauderhill
+Laurel Hill
+Lawtey
+Layton
+Lee
+Leesburg
+Lighthouse Point
+Live Oak
+Longboat Key
+Longwood
+Loxahatchee Groves
+Lynn Haven
+Macclenny
+Madeira Beach
+Madison
+Maitland
+Malabar
+Malone
+Manalapan
+Mangonia Park
+Marathon
+Marco Island
+Margate
+Marianna
+Marineland
+Mary Esther
+Mascotte
+Mayo
+McIntosh
+Medley
+Melbourne
+Melbourne Beach
+Melbourne Village
+Mexico Beach
+Miami
+Miami Beach
+Miami Gardens
+Miami Lakes
+Miami Shores
+Miami Springs
+Micanopy
+Midway
+Milton
+Minneola
+Miramar
+Monticello
+Montverde
+Moore Haven
+Mount Dora
+Mulberry
+Naples
+Neptune Beach
+New Port Richey
+New Smyrna Beach
+Newberry
+Niceville
+Noma
+North Bay Village
+North Lauderdale
+North Miami
+North Miami Beach
+North Palm Beach
+North Port
+North Redington Beach
+Oak Hill
+Oakland
+Oakland Park
+Ocala
+Ocean Breeze
+Ocean Ridge
+Ocoee
+Okeechobee
+Oldsmar
+Opa-locka
+Orange City
+Orange Park
+Orchid
+Orlando
+Ormond Beach
+Otter Creek
+Oviedo
+Pahokee
+Palatka
+Palm Bay
+Palm Beach
+Palm Beach Gardens
+Palm Beach Shores
+Palm Coast
+Palm Shores
+Palm Springs
+Palmetto
+Palmetto Bay
+Panama City
+Panama City Beach
+Parker
+Parkland
+Paxton
+Pembroke Park
+Pembroke Pines
+Penney Farms
+Pensacola
+Perry
+Pierson
+Pinecrest
+Pinellas Park
+Plant City
+Plantation
+Polk City
+Pomona Park
+Pompano Beach
+Ponce de Leon
+Ponce Inlet
+Port Orange
+Port Richey
+Port St. Joe
+Port St. Lucie
+Punta Gorda
+Quincy
+Raiford
+Reddick
+Redington Beach
+Redington Shores
+Riviera Beach
+Rockledge
+Royal Palm Beach
+Safety Harbor
+San Antonio
+Sanford
+Sanibel
+Sarasota
+Satellite Beach
+Sea Ranch Lakes
+Sebastian
+Sebring
+Seminole
+Sewall's Point
+Shalimar
+Sneads
+Sopchoppy
+South Bay
+South Daytona
+South Miami
+South Palm Beach
+South Pasadena
+Southwest Ranches
+Springfield
+St. Augustine
+St. Augustine Beach
+St. Cloud
+St. Leo
+St. Lucie Village
+St. Marks
+St. Pete Beach
+St. Petersburg
+Starke
+Stuart
+Sunny Isles Beach
+Sunrise
+Surfside
+Sweetwater
+Tallahassee
+Tamarac
+Tampa
+Tarpon Springs
+Tavares
+Temple Terrace
+Tequesta
+Titusville
+Treasure Island
+Trenton
+Umatilla
+Valparaiso
+Venice
+Vernon
+Vero Beach
+Virginia Gardens
+Waldo
+Wauchula
+Wausau
+Webster
+Weeki Wachee
+Welaka
+Wellington
+West Melbourne
+West Miami
+West Palm Beach
+West Park
+Westlake
+Weston
+Westville
+Wewahitchka
+White Springs
+Wildwood
+Williston
+Wilton Manors
+Windermere
+Winter Garden
+Winter Haven
+Winter Park
+Winter Springs
+Worthington Springs
+Yankeetown
+Zephyrhills
+Zolfo Springs
