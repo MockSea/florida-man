@@ -17,32 +17,119 @@
   const townToggle = $("town-toggle");
   const townRow = $("town-row");
 
+  // Our own suggestion list, not a <datalist>: iOS turns a datalist into a
+  // dropdown chevron that reads as a select box.
   const townList = $("town-list");
+  const MAX_SUGGESTIONS = 6;
+  let towns = [];
   let townsLoaded = false;
+  let activeSuggestion = -1;
 
   async function loadTowns() {
     if (townsLoaded) return;
     townsLoaded = true;
     try {
       const data = await api.towns();
-      const names = Array.isArray(data.towns) ? data.towns : [];
-      townList.replaceChildren(...names
-        .filter((name) => typeof name === "string")
-        .map((name) => {
-          const option = document.createElement("option");
-          option.value = name;
-          return option;
-        }));
+      towns = (Array.isArray(data.towns) ? data.towns : []).filter((name) => typeof name === "string");
+      if (document.activeElement === townInput) suggestTowns();
     } catch {
       townsLoaded = false;
     }
   }
 
+  function matchTowns(query) {
+    const q = query.trim().toLowerCase();
+    if (!q) return [];
+    const starts = towns.filter((name) => name.toLowerCase().startsWith(q));
+    const contains = towns.filter((name) => !name.toLowerCase().startsWith(q) && name.toLowerCase().includes(q));
+    return starts.concat(contains).slice(0, MAX_SUGGESTIONS);
+  }
+
+  function closeSuggestions() {
+    townList.hidden = true;
+    townList.replaceChildren();
+    townInput.setAttribute("aria-expanded", "false");
+    townInput.removeAttribute("aria-activedescendant");
+    activeSuggestion = -1;
+  }
+
+  function suggestTowns() {
+    const matches = matchTowns(townInput.value);
+    const exact = matches.length === 1 && matches[0].toLowerCase() === townInput.value.trim().toLowerCase();
+    if (!matches.length || exact) {
+      closeSuggestions();
+      return;
+    }
+    townList.replaceChildren(...matches.map((name, i) => {
+      const item = document.createElement("li");
+      item.id = `town-option-${i}`;
+      item.setAttribute("role", "option");
+      item.textContent = name;
+      // pointerdown beats the input's blur, which would close the list first.
+      item.addEventListener("pointerdown", (event) => {
+        event.preventDefault();
+        pickTown(name);
+      });
+      return item;
+    }));
+    activeSuggestion = -1;
+    townList.hidden = false;
+    townInput.setAttribute("aria-expanded", "true");
+    townInput.removeAttribute("aria-activedescendant");
+  }
+
+  function pickTown(name) {
+    townInput.value = name;
+    closeSuggestions();
+  }
+
+  function highlightSuggestion(index) {
+    const items = [...townList.children];
+    if (!items.length) return;
+    activeSuggestion = (index + items.length) % items.length;
+    items.forEach((item, i) => item.setAttribute("aria-selected", String(i === activeSuggestion)));
+    townInput.setAttribute("aria-activedescendant", items[activeSuggestion].id);
+  }
+
+  townInput.addEventListener("input", suggestTowns);
+  townInput.addEventListener("blur", closeSuggestions);
+  townInput.addEventListener("keydown", (event) => {
+    if (townList.hidden) return;
+    if (event.key === "ArrowDown" || event.key === "ArrowUp") {
+      event.preventDefault();
+      highlightSuggestion(activeSuggestion + (event.key === "ArrowDown" ? 1 : -1));
+    } else if (event.key === "Enter" && activeSuggestion >= 0) {
+      event.preventDefault();
+      pickTown(townList.children[activeSuggestion].textContent);
+    } else if (event.key === "Escape") {
+      closeSuggestions();
+    }
+  });
+
+  // The town box floats over the page, so opening it never pushes the stories
+  // down. Closed, the button names the town in use.
+  const townLabel = townToggle.querySelector("span");
+
   function showTownFilter(open) {
     townRow.hidden = !open;
     townToggle.setAttribute("aria-expanded", String(open));
+    townLabel.textContent = townInput.value.trim() || "Town";
+    townToggle.classList.toggle("is-set", Boolean(townInput.value.trim()));
     if (open) loadTowns();
+    else closeSuggestions();
   }
+
+  document.addEventListener("pointerdown", (event) => {
+    if (!townRow.hidden && !townRow.contains(event.target) && !townToggle.contains(event.target)) {
+      showTownFilter(false);
+    }
+  });
+  townRow.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && townList.hidden) {
+      showTownFilter(false);
+      townToggle.focus();
+    }
+  });
 
   const EMPTY_TEXT = "Florida Man was, surprisingly, well-behaved today.";
   const POLL_DELAYS = [4000, 10000];
@@ -382,14 +469,6 @@
     next.disabled = current >= stories.length - 1;
     position.textContent = many ? `${current + 1} of ${stories.length}` : "";
     shareButton.hidden = !stories.length && !payloadShareUrl;
-    fitHeight();
-  }
-
-  // Cards share one row, so the row takes the tallest card's height. Size it
-  // to the visible card instead, so the controls sit under the story.
-  function fitHeight() {
-    const card = carousel.children[current];
-    carousel.style.height = card ? `${card.offsetHeight}px` : "";
   }
 
   function render() {
@@ -416,7 +495,6 @@
     stories[index] = story;
     const old = carousel.children[index];
     if (old) old.replaceWith(storyCard(story, index, stories.length));
-    if (index === current) fitHeight();
   }
 
   function clearPolls() {
@@ -485,7 +563,7 @@
     if (date && (town || params.get("scope") === "statewide")) {
       return { mode: "search", fetch: () => api.search(town || "", date), town: town || "", date };
     }
-    if (date) return { mode: "date", fetch: () => api.day(date) };
+    if (date) return { mode: "date", fetch: () => api.day(date), date };
     return { mode: "day", fetch: () => api.today() };
   }
 
@@ -493,8 +571,9 @@
 
   function prefill(route) {
     townInput.value = route.town || "";
-    showTownFilter(Boolean(route.town));
-    dateInput.value = /^\d{4}-\d{2}-\d{2}$/.test(route.date || "") ? route.date : "";
+    showTownFilter(false);
+    // An empty date box read as broken, so it shows today until someone picks a day.
+    dateInput.value = /^\d{4}-\d{2}-\d{2}$/.test(route.date || "") ? route.date : dateInput.max;
   }
 
   function showError(error, fallback) {
@@ -511,7 +590,8 @@
     const token = ++loadToken;
     clearPolls();
     const route = routeFromUrl();
-    if (route.mode === "search") prefill(route);
+    if (route.mode !== "story") prefill(route);
+    if (!dateInput.value) dateInput.value = dateInput.max;
     setStatus("Loading…");
     try {
       const payload = await route.fetch();
@@ -614,7 +694,6 @@
     const open = townRow.hidden;
     showTownFilter(open);
     if (open) townInput.focus();
-    else townInput.value = "";
   });
 
   randomButton.addEventListener("click", rollRandom);
@@ -646,7 +725,6 @@
     weekday: "long", month: "long", day: "numeric", year: "numeric", timeZone: "America/New_York",
   });
 
-  window.addEventListener("resize", fitHeight);
   window.addEventListener("popstate", load);
   load();
 })();
