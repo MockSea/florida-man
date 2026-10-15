@@ -36,8 +36,10 @@
 }
 
 * { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
+/* Nothing may widen the page or bounce it: on a phone it should feel fixed. */
+html { -webkit-text-size-adjust: 100%; overflow-x: clip; overscroll-behavior: none; }
 body {
+  overflow-x: clip;
   margin: 0;
   background: var(--paper);
   color: var(--ink);
@@ -148,6 +150,9 @@ a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: 1px
   color: var(--ink);
   font: 500 1rem/1 var(--sans); /* under 16px and iOS zooms the page on focus */
 }
+/* iOS gives date inputs an intrinsic min-width that can push the bar past the screen. */
+.search-bar input[type="date"] { width: 100%; min-width: 0; -webkit-appearance: none; appearance: none; }
+.search-bar input[type="date"]::-webkit-date-and-time-value { text-align: left; }
 .search-bar input:focus { outline: none; }
 .search-bar input::placeholder { color: #7a7060; }
 .town-toggle {
