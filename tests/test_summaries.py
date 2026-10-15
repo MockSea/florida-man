@@ -34,15 +34,15 @@ class FakeDecoder:
 
 
 class FakeFetcher:
-    def __init__(self, blurb=BLURB, error=None):
-        self.blurb_text, self.error = blurb, error
+    def __init__(self, blurb=BLURB, error=None, image=None):
+        self.blurb_text, self.error, self.image = blurb, error, image
         self.calls = []
 
-    def blurb(self, url):
+    def page(self, url):
         self.calls.append(url)
         if self.error:
             raise self.error
-        return self.blurb_text
+        return self.blurb_text, self.image
 
 
 class Mono:
@@ -106,6 +106,12 @@ class EnrichTestCase(AppTestCase):
 
 
 class OverlayTests(EnrichTestCase):
+    def test_share_image_overlaid(self):
+        app = self.make(fetcher=FakeFetcher(image="https://www.wfla.com/img/nugget.jpg"))
+        app.today_pick()
+        self.assertTrue(self.sm.process_one())
+        self.assertEqual(app.today_pick()["story"]["imageUrl"], "https://www.wfla.com/img/nugget.jpg")
+
     def test_pending_then_overlaid(self):
         app = self.make()
         before = app.today_pick()

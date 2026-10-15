@@ -349,3 +349,33 @@ class DribbleDeadlineTest(unittest.TestCase):
                 f.blurb("https://example.com/story")
         self.assertLess(time.monotonic() - t0, 3.0)
         self.assertIn("deadline", str(cm.exception))
+
+
+class ShareImageTests(unittest.TestCase):
+    BASE = "https://www.wfla.com/news/nugget-man/"
+
+    def test_og_image_resolved_against_page(self):
+        html = ('<head><meta property="og:description" content="A man.">'
+                '<meta property="og:image" content="/img/nugget.jpg"></head>')
+        self.assertEqual(pub.extract_page(html, self.BASE),
+                         ("A man.", "https://www.wfla.com/img/nugget.jpg"))
+
+    def test_secure_url_wins_and_twitter_is_fallback(self):
+        html = ('<meta property="og:image" content="https://a.example.com/1.jpg">'
+                '<meta property="og:image:secure_url" content="https://b.example.com/2.jpg">')
+        self.assertEqual(pub.extract_page(html, self.BASE)[1], "https://b.example.com/2.jpg")
+        html = '<meta name="twitter:image" content="https://c.example.com/3.jpg">'
+        self.assertEqual(pub.extract_page(html, self.BASE)[1], "https://c.example.com/3.jpg")
+
+    def test_unsafe_images_dropped(self):
+        for bad in ("http://a.example.com/x.jpg", "javascript:alert(1)", "data:image/png;base64,AA",
+                    "https://user:pw@a.example.com/x.jpg", "https://printer.local/x.jpg",
+                    "https://10.0.0.1/x.jpg", "https://0x7f.0x0.0x0.0x1/x.jpg", "https://127.0.0.0x1/x.jpg", "https://a.example.com/x y.jpg",
+                    "https://a.example.com/" + "x" * 2100):
+            self.assertIsNone(pub.image_url(bad, self.BASE), bad)
+        # A relative path on an http page resolves to http, so it is dropped too.
+        self.assertIsNone(pub.image_url("/x.jpg", "http://www.wfla.com/a"))
+
+    def test_no_image_is_none(self):
+        self.assertEqual(pub.extract_page('<meta name="description" content="Hi.">', self.BASE),
+                         ("Hi.", None))

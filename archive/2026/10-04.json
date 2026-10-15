@@ -201,6 +201,7 @@
  "summaries": {
   "070db0391daa6923": {
    "fetched": 1792022201,
+   "image": "https://i.guim.co.uk/img/media/a26edbf052bad11ad48e91cad511681702cb4687/0_0_6000_3600/master/6000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctYWdlLTIwMjQucG5n&enable=upscale&s=173aefd52892d8a7e6e425583d723eb1",
    "publisherUrl": "https://www.theguardian.com/us-news/2024/oct/04/florida-surfer-rescues-neighbors-hurricane-helene",
    "retryAt": null,
    "status": "ok",
@@ -208,6 +209,7 @@
   },
   "07118ded377f2906": {
    "fetched": 1792022253,
+   "image": "https://images.foxtv.com/static.fox35orlando.com/www.fox35orlando.com/content/uploads/2022/10/1200/630/flagler.jpg?ve=1&tl=1",
    "publisherUrl": "https://www.fox35orlando.com/news/video-shows-florida-man-using-1-year-old-as-human-shield-flagler-sheriff-says",
    "retryAt": null,
    "status": "ok",
@@ -215,6 +217,7 @@
   },
   "33752401324b90e3": {
    "fetched": 1792022139,
+   "image": "https://assets2.cbsnewsstatic.com/hub/i/r/2023/07/18/6487b5c0-805b-4508-a019-660b4c87bc1a/thumbnail/1200x630/b6e75183ffb505e1a422a3e1f5a296ad/trump-desantis-split.jpg",
    "publisherUrl": "https://www.cbsnews.com/miami/news/a-man-charged-with-voter-fraud-in-florida-blames-rivalry-between-trump-and-desantis-supporters-2/",
    "retryAt": null,
    "status": "ok",
@@ -222,6 +225,7 @@
   },
   "3ad7e440f94111ba": {
    "fetched": 1792022199,
+   "image": "https://d.latintimes.com/en/full/557836/michael-straight.png",
    "publisherUrl": "https://www.latintimes.com/advice-columnist-helps-paralyzed-florida-man-walk-again-after-exoskeleton-company-refuses-fix-561316",
    "retryAt": null,
    "status": "ok",
@@ -229,6 +233,7 @@
   },
   "8005f35c6265f5dc": {
    "fetched": 1792022200,
+   "image": "https://i.iheart.com/v3/re/new_assets/633ca0acbf7c07b9e38d7805?ops=gravity(%22north%22),fit(1200,675),quality(65)",
    "publisherUrl": "https://www.binnews.com/content/2022-10-04-florida-man-calls-black-cops-the-n-word-demands-white-police-officer/",
    "retryAt": null,
    "status": "ok",
@@ -236,6 +241,7 @@
   },
   "8a35654fbb14b166": {
    "fetched": 1792022136,
+   "image": "https://d.latintimes.com/en/full/557855/daniel-ray-rios-mugshot.png",
    "publisherUrl": "https://www.latintimes.com/florida-man-taking-shelter-hurricane-walmart-roof-arrested-trespassing-561348",
    "retryAt": null,
    "status": "ok",
@@ -243,6 +249,7 @@
   },
   "9eb686aaee9dbdb8": {
    "fetched": 1792022198,
+   "image": "https://static.the-independent.com/2022/10/04/22/newFile.jpg?width=1200&height=800&crop=1200:800",
    "publisherUrl": "https://www.independent.co.uk/news/world/americas/crime/florida-man-kidnap-child-human-shield-police-b2195667.html",
    "retryAt": null,
    "status": "ok",
@@ -250,6 +257,7 @@
   },
   "a4981f20edc07fad": {
    "fetched": 1792022194,
+   "image": "https://images.foxtv.com/static.fox35orlando.com/www.fox35orlando.com/content/uploads/2023/10/1200/630/Emmanuel-Class.jpg?ve=1&tl=1",
    "publisherUrl": "https://www.fox35orlando.com/news/florida-man-admits-he-was-drunk-when-he-fell-asleep-behind-wheel-at-a-stoplight-deputies",
    "retryAt": 1794614194,
    "status": "rejected",
@@ -257,6 +265,7 @@
   },
   "b65180bebd05fe79": {
    "fetched": 1792022195,
+   "image": "https://www.thedrive.com/wp-content/uploads/2022/10/04/Buried-Race-Cars-3.jpg?quality=85&w=1200",
    "publisherUrl": "https://www.thedrive.com/news/florida-man-arrested-after-allegedly-burying-two-stolen-race-cars-with-an-excavator",
    "retryAt": null,
    "status": "ok",
@@ -264,6 +273,7 @@
   },
   "ce27372e200ccc22": {
    "fetched": 1792022137,
+   "image": "https://brobible.com/wp-content/uploads/2022/10/tarpon-fish.jpg",
    "publisherUrl": "https://brobible.com/culture/article/fisherman-fights-off-massive-alligator-going-after-tarpon/",
    "retryAt": null,
    "status": "ok",

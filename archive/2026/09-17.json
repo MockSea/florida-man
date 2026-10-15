@@ -198,6 +198,7 @@
  "summaries": {
   "06a4f2add02936db": {
    "fetched": 1792024102,
+   "image": "https://media.nbcmiami.com/2022/04/040822-snorkeling-generic.jpg?quality=85&strip=all&resize=1200%2C675",
    "publisherUrl": "https://www.nbcmiami.com/news/local/florida-man-dies-snorkeling-off-islamorada/2860596/",
    "retryAt": null,
    "status": "ok",
@@ -212,6 +213,7 @@
   },
   "56ecbf92cc9cffcf": {
    "fetched": 1792024087,
+   "image": "https://nypost.com/wp-content/uploads/sites/2/2025/09/fl-comp-1.jpg?quality=75&strip=all&w=1200",
    "publisherUrl": "https://nypost.com/2025/09/17/us-news/florida-man-uses-last-words-to-insist-hes-innocent-during-states-record-12th-execution-of-the-year/",
    "retryAt": null,
    "status": "ok",
@@ -219,6 +221,7 @@
   },
   "707eb5a9f6d82e82": {
    "fetched": 1792024103,
+   "image": "https://images.foxtv.com/static.fox13news.com/www.fox13news.com/content/uploads/2025/09/1200/630/crossbow-resized.jpg?ve=1&tl=1",
    "publisherUrl": "https://www.fox13news.com/news/florida-man-accused-shooting-parasite-roommate-arrow",
    "retryAt": null,
    "status": "ok",
@@ -226,6 +229,7 @@
   },
   "75431cabf9245903": {
    "fetched": 1792024033,
+   "image": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/V6ERIZQTUVGALK23CCEBKFJUZ4.jpg?api_key=clickorlando_488cff2bcc157b2e",
    "publisherUrl": "https://www.clickorlando.com/news/local/2025/09/17/florida-man-arrested-in-flagler-county-had-sea-turtle-eggs-drugs-in-his-possession-deputies-say/",
    "retryAt": null,
    "status": "ok",
@@ -240,6 +244,7 @@
   },
   "96b5fe667ebb5100": {
    "fetched": 1792024088,
+   "image": "https://cdn.ex.co/transformations-account/production/99589e92-e6b5-4a6b-8db4-bb0120ace3e1/72006700-6300-4f00-b500-520055005200/thumbnail-1080.webp",
    "publisherUrl": "https://www.independent.co.uk/tv/news/florida-man-spits-judge-court-video-b2828546.html",
    "retryAt": null,
    "status": "ok",
@@ -247,6 +252,7 @@
   },
   "ada41ab8d443a0a3": {
    "fetched": 1792024032,
+   "image": "https://images.foxtv.com/static-media.fox.com/fmcv3/prod/fts/A-172302/1200/630/se89jxlaqt8kqv4o.jpg?ve=1&tl=1",
    "publisherUrl": "https://www.fox35orlando.com/video/1517533",
    "retryAt": null,
    "status": "ok",
@@ -254,6 +260,7 @@
   },
   "b7439d245bee28f0": {
    "fetched": 1792024099,
+   "image": "https://supercarblondie.com/cdn-cgi/image/width=1200,height=675,quality=80,format=webp,fit=cover/wp-content/uploads/image-1200x750-140.webp",
    "publisherUrl": "https://supercarblondie.com/florida-man-rebuilds-audi-r8-supercar-with-temu-parts/",
    "retryAt": null,
    "status": "ok",
@@ -261,6 +268,7 @@
   },
   "be7431854d5dfbe3": {
    "fetched": 1792024034,
+   "image": "https://tcd-images.akamaized.net/image/bf/16by9/2025/09/17/bfa4ca3fb82a47af9a5014c9c2263e43_xl.jpg",
    "publisherUrl": "https://truecrimenews.com/2025/09/17/florida-man-allegedly-tried-to-shoot-roommate-crossbow-george-balboni/",
    "retryAt": null,
    "status": "ok",

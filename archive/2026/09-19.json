@@ -197,6 +197,7 @@
  "summaries": {
   "2c5880fd994ef8ff": {
    "fetched": 1792023873,
+   "image": "https://assets1.cbsnewsstatic.com/hub/i/r/2024/09/07/f990d489-1f7f-4180-a3a6-bbdaa73bebfd/thumbnail/1200x630/13300fa95c6acda754e9f078687dbe07/ap24251478639699.jpg",
    "publisherUrl": "https://www.cbsnews.com/miami/news/florida-man-turned-3-into-3-million-playing-mega-millions/",
    "retryAt": null,
    "status": "ok",
@@ -211,6 +212,7 @@
   },
   "49827b7f934db5d4": {
    "fetched": 1792023831,
+   "image": "https://www.wnky.com/content/uploads/2025/09/z/t/photo-resize-2025-09-19t104704468.jpg",
    "publisherUrl": "https://www.wnky.com/florida-man-arrested-in-hart-county-on-dui-charge/",
    "retryAt": null,
    "status": "ok",
@@ -218,6 +220,7 @@
   },
   "4b97c4d54edeb40d": {
    "fetched": 1792023884,
+   "image": "https://www.whiskeyriff.com/wp-content/uploads/Ohtani.jpg",
    "publisherUrl": "https://www.whiskeyriff.com/2024/09/19/florida-man-should-be-ashamed-for-not-making-a-better-effort-to-catch-shohei-ohtanis-50-50-record-breaking-home-run-ball/",
    "retryAt": null,
    "status": "ok",
@@ -225,6 +228,7 @@
   },
   "7830c7d485fc80ff": {
    "fetched": 1792023886,
+   "image": "https://wsvn.com/wp-content/uploads/sites/2/2024/09/091924-7inv-family-fraud.png",
    "publisherUrl": "https://wsvn.com/news/investigations/i-dont-think-any-property-is-safe-south-florida-man-says-he-almost-became-a-victim-to-ai-real-estate-fraud/",
    "retryAt": null,
    "status": "ok",
@@ -232,6 +236,7 @@
   },
   "8b5021fdfa14cd8f": {
    "fetched": 1792023818,
+   "image": "https://people.com/thmb/e-ddbwgbvn5BqWDvYJU-JpsONoM=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(920x136:922x138)/travis-hall-florida-lottery-winner-091923-tout-27585146763040ee802e4f1eb5c4c20b.jpg",
    "publisherUrl": "https://people.com/florida-man-collects-5-million-lottery-win-from-scratch-off-ticket-7971584",
    "retryAt": null,
    "status": "ok",
@@ -239,6 +244,7 @@
   },
   "a1b2d60d9d9ca6f3": {
    "fetched": 1792023897,
+   "image": "https://wsvn.com/wp-content/uploads/sites/2/2025/09/250919_Joe_Ghattas_7Spotlight.jpg?quality=60&strip=color",
    "publisherUrl": "https://wsvn.com/news/7spotlight/a-south-florida-man-builds-the-baddest-trucks-on-the-planet-his-family-business-is-the-subject-of-a-new-reality-show/",
    "retryAt": null,
    "status": "ok",
@@ -246,6 +252,7 @@
   },
   "b8ab64eb7e97b1e1": {
    "fetched": 1792023830,
+   "image": "https://weartv.com/resources/media/c77d2635-660f-4105-94a0-252b406b0500-jumbo16x9_walton.PNG?1663614530018",
    "publisherUrl": "https://weartv.com/news/local/deputies-florida-man-pulls-gun-on-partygoers-who-tried-to-stop-him-from-driving-drunk",
    "retryAt": null,
    "status": "ok",
@@ -253,6 +260,7 @@
   },
   "c65625f1adcc9d73": {
    "fetched": 1792023806,
+   "image": "https://townsquare.media/site/712/files/2024/09/attachment-FI-Alli.jpg?w=1200&q=75&format=natural",
    "publisherUrl": "https://97x.com/florida-man-alligator-pool-arrest/",
    "retryAt": null,
    "status": "ok",
@@ -260,6 +268,7 @@
   },
   "f32a1b5b8cae2308": {
    "fetched": 1792023829,
+   "image": "https://people.com/thmb/Hcgb5Ivm8lePCnZxdb8WzgTlaMA=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(1059x341:1061x343)/Gator-attack-victim-091722-03-df5c42f56b154a02ae15c6760231a030.jpg",
    "publisherUrl": "https://people.com/human-interest/alligator-attack-survivor-eric-merda-says-he-no-longer-fears-death/",
    "retryAt": null,
    "status": "ok",

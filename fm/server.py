@@ -13,7 +13,7 @@ CSP = (
     "script-src 'self'; "
     "style-src 'self'; "
     "font-src 'self'; "
-    "img-src 'self' data:; "
+    "img-src 'self' data: https:; "  # story photos hotlink the publisher's share image
     "connect-src 'self'; "
     "object-src 'none'; "
     "base-uri 'none'; "

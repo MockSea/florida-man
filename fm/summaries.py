@@ -182,7 +182,7 @@ class Summaries:
             self.store.put_summary(key, "failed", publisher_url=pub, retry_in=RETRY_REJECTED)
             return
         try:
-            blurb = self.fetcher.blurb(pub)
+            blurb, image = self.fetcher.page(pub)
         except Blocked as e:
             # Refused by policy: don't link it either.
             self.log("%s blocked (%s)", host, e)
@@ -195,10 +195,11 @@ class Summaries:
         summary = make_summary(blurb, headline)
         if summary is None:
             self.log("%s rejected", host)
-            self.store.put_summary(key, "rejected", publisher_url=pub, retry_in=RETRY_REJECTED)
+            self.store.put_summary(key, "rejected", publisher_url=pub, retry_in=RETRY_REJECTED,
+                                   image=image)
         else:
             self.log("%s ok", host)
-            self.store.put_summary(key, "ok", publisher_url=pub, summary=summary)
+            self.store.put_summary(key, "ok", publisher_url=pub, summary=summary, image=image)
 
     def drain(self, limit, deadline=None, sleep=time.sleep):
         """Enrich queued articles in the calling thread until the queue is
@@ -240,6 +241,8 @@ def overlay(st, row, pending):
             out["summarySource"] = "publisher"
         if row["publisherUrl"]:
             out["sourceUrl"] = row["publisherUrl"]
+        if row.get("image"):
+            out["imageUrl"] = row["image"]
     return out
 
 

@@ -23,7 +23,7 @@ from datetime import date, timedelta
 from . import config, server, source, towns
 from .cache import Store
 from .gnews_decode import Decoder
-from .publisher import Fetcher
+from .publisher import Blocked, FetchError, Fetcher, image_url
 from .sanitize import safe_url
 from .service import EMPTY_MESSAGE, FloridaMan, random_grim
 from .summaries import Summaries, article_key, overlay
@@ -123,6 +123,8 @@ def check_record(rec, d):
             raise ValueError("bad summary row")
         if row.get("publisherUrl") is not None and not safe_url(row["publisherUrl"]):
             raise ValueError("bad publisherUrl")
+        if row.get("image") is not None and image_url(row["image"], "") != row["image"]:
+            raise ValueError("bad image")
 
 
 def load_archive(root, log=_log):
@@ -187,6 +189,7 @@ def _row_out(row):
     retry = row.get("retryAt")
     return {"status": row["status"], "fetched": int(row["fetched"]),
             "publisherUrl": row.get("publisherUrl"), "summary": row.get("summary"),
+            "image": row.get("image"),
             "retryAt": None if retry is None else int(retry)}
 
 
@@ -475,6 +478,33 @@ def run(out, archive_dir=ARCHIVE_DIR, static_dir=STATIC_DIR, backfill=0,
     return 0
 
 
+def fill_images(archive_dir, fetcher, sleep=time.sleep, log=_log, pause=1.0):
+    """Fetch share photos for archived rows that have a publisher page but no
+    image yet. Touches only publisher sites, one page per `pause` seconds.
+    Returns how many photos were found."""
+    records = load_archive(archive_dir, log)
+    found = 0
+    for d, rec in sorted(records.items()):
+        changed = False
+        for row in (rec.get("summaries") or {}).values():
+            if not row.get("publisherUrl") or row.get("image"):
+                continue
+            try:
+                image = fetcher.page(row["publisherUrl"])[1]
+            except (Blocked, FetchError) as e:
+                log("%s: %s", d, str(e)[:80])
+                image = None
+            sleep(pause)
+            if image:
+                row["image"] = image
+                found += 1
+                changed = True
+        if changed:
+            save_record(archive_dir, d, rec)
+    log("share photos: %d found", found)
+    return found
+
+
 def main(argv=None):
     p = argparse.ArgumentParser(prog="python3 -m fm.build", description=__doc__.split("\n")[0])
     p.add_argument("--out", required=True, help="directory to write the site to (replaced)")
@@ -486,7 +516,12 @@ def main(argv=None):
     p.add_argument("--summary-minutes", type=float, default=None,
                    help="time limit for enrichment (default %d + %d per backfilled day)"
                    % (MINUTES_BASE, MINUTES_PER_DAY))
+    p.add_argument("--fill-images", action="store_true",
+                   help="only fetch missing share photos for archived stories, then exit")
     args = p.parse_args(argv)
+    if args.fill_images:
+        fill_images(os.path.abspath(args.archive), Fetcher())
+        return 0
     if not 0 <= args.backfill <= MAX_BACKFILL:
         p.error("--backfill must be between 0 and %d" % MAX_BACKFILL)
     cfg = config.Config.from_env()

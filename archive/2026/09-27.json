@@ -198,6 +198,7 @@
  "summaries": {
   "00c7bd190badfe25": {
    "fetched": 1792022941,
+   "image": "https://media.greenmatters.com/brand-img/RcHTvyhSS/1200x628/rabid-otter-attack-in-florida-1695831852671.jpg",
    "publisherUrl": "https://www.greenmatters.com/news/rabid-otter-attack-in-florida",
    "retryAt": null,
    "status": "ok",
@@ -205,6 +206,7 @@
   },
   "2bcd2cea5db00ffb": {
    "fetched": 1792022942,
+   "image": "https://taskandpurpose.com/wp-content/uploads/2024/09/rescue-selfie.jpg?quality=85&w=1200",
    "publisherUrl": "https://taskandpurpose.com/news/florida-rescue-selfie-hurricane-helene/",
    "retryAt": null,
    "status": "ok",
@@ -212,6 +214,7 @@
   },
   "35f04147c08fe7a9": {
    "fetched": 1792023009,
+   "image": "https://www.nydailynews.com/wp-content/uploads/2023/09/shutterstock_1909723624.jpg?w=4656&h=2811",
    "publisherUrl": "https://www.nydailynews.com/2023/09/27/rabid-otter-attack-florida/",
    "retryAt": null,
    "status": "ok",
@@ -219,6 +222,7 @@
   },
   "36b06485afbdf3a6": {
    "fetched": 1792022929,
+   "image": "https://www.vice.com/wp-content/uploads/sites/2/2024/09/florida-man-kayak-flooded-house.jpg?resize=2000,1048",
    "publisherUrl": "https://www.vice.com/en/article/hurricane-helene-kayak-flooded-house-video/",
    "retryAt": null,
    "status": "ok",
@@ -226,6 +230,7 @@
   },
   "3fd503970bb51708": {
    "fetched": 1792022943,
+   "image": "https://static.toiimg.com/thumb/msid-113744651,width-1070,height-580,imgsize-796876,resizemode-75,overlay-toi_sw,pt-32,y_pad-40/photo.jpg",
    "publisherUrl": "https://timesofindia.indiatimes.com/world/us/florida-man-kayaking-in-his-living-room-during-hurricane-helene-video-viral/articleshow/113744499.cms",
    "retryAt": null,
    "status": "ok",
@@ -233,6 +238,7 @@
   },
   "46ac518f3057071d": {
    "fetched": 1792022944,
+   "image": "https://gray-wala-prod.gtv-cdn.com/resizer/v2/https%3A%2F%2Fdo0bihdskp9dy.cloudfront.net%2F09-28-2024%2Ft_69bfda12e50240359a93457a38d797e8_name_file_1280x720_2000_v3_1_.jpg?auth=32319f2f2a898642f1ae60496ac20b2cff1e6755f8c139651576f4dfa7e887af&width=1200&height=600&smart=true",
    "publisherUrl": "https://www.fox10tv.com/video/2024/09/28/kayaking-through-chaos-florida-man-rides-out-hurricane-helene-living-room/",
    "retryAt": null,
    "status": "ok",
@@ -240,6 +246,7 @@
   },
   "7a3115bcb9d76978": {
    "fetched": 1792023008,
+   "image": "https://images.foxtv.com/static.fox35orlando.com/www.fox35orlando.com/content/uploads/2023/09/1200/630/WOFL-Pablo-Eduardo-Garcia.jpg?ve=1&tl=1",
    "publisherUrl": "https://www.fox35orlando.com/news/florida-man-points-gun-at-ex-girlfriend-punches-her-multiple-time-before-falling-asleep-deputies",
    "retryAt": null,
    "status": "ok",
@@ -247,6 +254,7 @@
   },
   "7b950105082adc93": {
    "fetched": 1792022945,
+   "image": "https://www.usatoday.com/gcdn/authoring/authoring-images/2023/09/27/USAT/70980820007-rabid-otter-92023-a-2156557.jpg?crop=639,360,x0,y72&width=639&height=360&format=pjpg&auto=webp",
    "publisherUrl": "https://www.usatoday.com/story/news/nation/2023/09/27/rabid-otter-bites-man-florida/70978598007/",
    "retryAt": null,
    "status": "ok",
@@ -254,6 +262,7 @@
   },
   "8f32d427b8f16cff": {
    "fetched": 1792022996,
+   "image": "https://people.com/thmb/8shVz3AkZrgI5vq0jQ7y_CSuBwg=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc():focal(749x0:751x2)/otter-tout-092723-9457be6e49e3405493859e30b7545dc8.jpg",
    "publisherUrl": "https://people.com/rabid-river-otter-bites-florida-man-41-times-attacks-dog-same-day-7975389",
    "retryAt": null,
    "status": "ok",

@@ -200,6 +200,7 @@
  "summaries": {
   "0e7797269a4c75da": {
    "fetched": 1792021715,
+   "image": "https://www.whiskeyriff.com/wp-content/uploads/Leuitanent-dan.jpg",
    "publisherUrl": "https://www.whiskeyriff.com/2024/10/08/certified-florida-man-named-lieutenant-dan-is-attempting-to-ride-out-hurricane-milton-in-the-tampa-harbor-in-his-20-foot-sailboat/",
    "retryAt": null,
    "status": "ok",
@@ -207,6 +208,7 @@
   },
   "2423a4b7a3e57a9e": {
    "fetched": 1792021785,
+   "image": "https://image.cnbcfm.com/api/v1/image/108084177-1736427817397-gettyimages-2192436605-AFP_36TD6BT.jpeg?v=1759943542&w=1920&h=1080",
    "publisherUrl": "https://www.cnbc.com/2025/10/08/la-fire-pacific-palisades-jonathan-rinderknecht.html",
    "retryAt": null,
    "status": "ok",
@@ -214,6 +216,7 @@
   },
   "3f86db9cb7910fc3": {
    "fetched": 1792021717,
+   "image": "https://static.the-independent.com/2025/10/08/21/27/Screenshot-2025-10-08-at-5-31-53-PM.jpg?trim=0,4,0,4&width=1200&height=800&crop=1200:800",
    "publisherUrl": "https://www.independent.co.uk/news/world/americas/crime/florida-arrest-gun-pointed-kids-boat-b2842061.html",
    "retryAt": null,
    "status": "ok",
@@ -221,6 +224,7 @@
   },
   "5ff4b1093a342528": {
    "fetched": 1792021785,
+   "image": "https://cdn.abcotvs.com/dip/images/17964025_100825-kabc-ap-palisades-fire.jpg?w=1600",
    "publisherUrl": "https://6abc.com/post/arrest-made-connection-palisades-fire-investigation-los-angeles-county-source-says/17964090/",
    "retryAt": null,
    "status": "ok",
@@ -242,6 +246,7 @@
   },
   "91aee79a9ff7fae1": {
    "fetched": 1792021797,
+   "image": "https://images.foxtv.com/static-media.fox.com/fmcv3/prod/fts/A-192824/1200/630/i8ou6c15n92298mq.jpg?ve=1&tl=1",
    "publisherUrl": "https://www.fox35orlando.com/video/1720834",
    "retryAt": null,
    "status": "ok",
@@ -249,6 +254,7 @@
   },
   "b177a6aa04ab0bdb": {
    "fetched": 1792021798,
+   "image": "https://cmg-cmg-tv-10070-prod.cdn.arcpublishing.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fcmg%2FFHUOPTHZANFY7FQUGFZYMKR6ZU.jpg?auth=3ee3b7bfe1f4cc0cdb3c9842ce396b3ad0af4c8408b12ce7f57b89fd235fa538&width=1200&height=630&smart=true",
    "publisherUrl": "https://www.wftv.com/news/local/central-florida-man-charged-deadly-wildfire-that-leveled-california-neighborhood/NSR3TD3FEZHQDIA62JNXO6TI5M/",
    "retryAt": null,
    "status": "ok",
@@ -256,6 +262,7 @@
   },
   "d48820f9c70e2d66": {
    "fetched": 1792021732,
+   "image": "https://media.nbcmiami.com/2025/10/42536091664-1080pnbcstations.jpg?quality=85&strip=all&resize=1200%2C675",
    "publisherUrl": "https://www.nbcmiami.com/video/nbc-6-news/neighbors-witness-arrest-of-florida-man-accused-of-sparking-la-wildfire/3703603/",
    "retryAt": null,
    "status": "ok",
@@ -263,6 +270,7 @@
   },
   "fe8b05427f403223": {
    "fetched": 1792021732,
+   "image": "https://img.sfist.com/2025/10/palisades-fire-suspect.jpg",
    "publisherUrl": "https://sfist.com/2025/10/08/florida-man-arrested-for-maliciously-starting-palisades-fire-in-la/",
    "retryAt": null,
    "status": "ok",

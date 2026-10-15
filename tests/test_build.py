@@ -132,6 +132,31 @@ class WritesSiteTests(BuildTestCase):
         self.assertEqual((row["status"], row["publisherUrl"]), ("ok", PUB))
         self.assertIsInstance(row["fetched"], int)
 
+    def test_fill_images_backfills_archive_and_site(self):
+        self.run_build(FakeFetch(DAY_ROUTES))
+        photo = "https://www.wfla.com/img/nugget.jpg"
+        fetcher = FakeFetcher(image=photo)
+        found = build.fill_images(self.archive, fetcher, sleep=lambda s: None, log=lambda *a: None)
+        self.assertGreater(found, 0)
+        rec = json.loads(self.archive_files()[os.path.join("2026", "10-14.json")])
+        self.assertEqual(rec["summaries"][article_key(rec["story"]["sourceUrl"])]["image"], photo)
+        # A second pass has nothing left to fetch.
+        calls = len(fetcher.calls)
+        build.fill_images(self.archive, fetcher, sleep=lambda s: None, log=lambda *a: None)
+        self.assertEqual(len(fetcher.calls), calls)
+        self.run_build(FakeFetch(DAY_ROUTES))
+        with open(os.path.join(self.out, "data", "today.json"), encoding="utf-8") as f:
+            self.assertEqual(json.load(f)["story"]["imageUrl"], photo)
+
+    def test_bad_archived_image_rejected(self):
+        self.run_build(FakeFetch(DAY_ROUTES))
+        path = os.path.join(self.archive, "2026", "10-14.json")
+        with open(path, encoding="utf-8") as f:
+            rec = json.load(f)
+        next(iter(rec["summaries"].values()))["image"] = "javascript:alert(1)"
+        with self.assertRaises(ValueError):
+            build.check_record(rec, date(2026, 10, 14))
+
     def test_html_paths_relative_and_meta_csp(self):
         self.run_build(FakeFetch(DAY_ROUTES))
         with open(os.path.join(self.out, "index.html"), encoding="utf-8") as f:
@@ -147,17 +172,18 @@ class WritesSiteTests(BuildTestCase):
         csp = m.group(1)
         self.assertLess(html.index("Content-Security-Policy"), html.index("<link"))
         for directive in ("default-src 'self'", "script-src 'self'", "style-src 'self'",
-                          "font-src 'self'", "img-src 'self' data:", "connect-src 'self'",
+                          "font-src 'self'", "img-src 'self' data: https:", "connect-src 'self'",
                           "object-src 'none'", "base-uri 'none'"):
             self.assertIn(directive, csp)
         self.assertNotIn("unsafe", csp)
-        self.assertNotIn("http", csp)
+        # Only images may come from elsewhere (publisher share photos).
+        self.assertNotIn("http", csp.replace("img-src 'self' data: https:", ""))
         self.assertIn('<meta name="fm-mode" content="static">', html)
         self.assertIn('<meta name="referrer" content="no-referrer">', html)
         self.assertNotIn("<script>", html)
 
     def test_server_csp_has_no_third_parties(self):
-        self.assertNotIn("http", server.CSP)
+        self.assertNotIn("http", server.CSP.replace("img-src 'self' data: https:", ""))
         self.assertIn("frame-ancestors 'none'", server.CSP)
 
     def test_absolute_url_check_catches_slashes(self):

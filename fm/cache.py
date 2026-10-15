@@ -23,6 +23,7 @@ CREATE TABLE IF NOT EXISTS summaries (
     article TEXT PRIMARY KEY,
     publisher_url TEXT,     -- decoded link, NULL if unknown/refused
     summary TEXT,           -- NULL unless status = 'ok'
+    image TEXT,             -- publisher's share image (https), NULL if none
     status TEXT NOT NULL,   -- ok | rejected | failed
     fetched REAL NOT NULL,
     retry_at REAL           -- NULL = never retry
@@ -46,6 +47,9 @@ class Store:
         self.db = sqlite3.connect(self.path, check_same_thread=False, isolation_level=None)
         self.db.execute("PRAGMA journal_mode=WAL")
         self.db.executescript(_SCHEMA)
+        cols = {r[1] for r in self.db.execute("PRAGMA table_info(summaries)")}
+        if "image" not in cols:  # databases from before share images
+            self.db.execute("ALTER TABLE summaries ADD COLUMN image TEXT")
 
     def close(self):
         with self.lock:
@@ -114,21 +118,22 @@ class Store:
         marks = ",".join("?" * len(articles))
         with self.lock:
             rows = self.db.execute(
-                "SELECT article, publisher_url, summary, status, fetched, retry_at "
+                "SELECT article, publisher_url, summary, status, fetched, retry_at, image "
                 "FROM summaries WHERE article IN (%s)" % marks, articles
             ).fetchall()
-        keys = ("article", "publisherUrl", "summary", "status", "fetched", "retryAt")
+        keys = ("article", "publisherUrl", "summary", "status", "fetched", "retryAt", "image")
         return {r[0]: dict(zip(keys, r)) for r in rows}
 
-    def put_summary(self, article, status, publisher_url=None, summary=None, retry_in=None):
+    def put_summary(self, article, status, publisher_url=None, summary=None, retry_in=None,
+                    image=None):
         now = self.clock()
         with self.lock:
             self.db.execute(
                 "INSERT OR REPLACE INTO summaries "
-                "(article, publisher_url, summary, status, fetched, retry_at) "
-                "VALUES (?, ?, ?, ?, ?, ?)",
+                "(article, publisher_url, summary, status, fetched, retry_at, image) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?)",
                 (article, publisher_url, summary, status, now,
-                 None if retry_in is None else now + retry_in),
+                 None if retry_in is None else now + retry_in, image),
             )
             self.db.execute(
                 "DELETE FROM summaries WHERE article NOT IN "
@@ -142,10 +147,10 @@ class Store:
         with self.lock:
             self.db.execute(
                 "INSERT OR REPLACE INTO summaries "
-                "(article, publisher_url, summary, status, fetched, retry_at) "
-                "VALUES (?, ?, ?, ?, ?, ?)",
+                "(article, publisher_url, summary, status, fetched, retry_at, image) "
+                "VALUES (?, ?, ?, ?, ?, ?, ?)",
                 (article, row.get("publisherUrl"), row.get("summary"), row["status"],
-                 row["fetched"], row.get("retryAt")),
+                 row["fetched"], row.get("retryAt"), row.get("image")),
             )
 
     # -- counters --------------------------------------------------------

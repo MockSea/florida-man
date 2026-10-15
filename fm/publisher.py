@@ -25,6 +25,8 @@ MAX_BYTES = 512 * 1024
 MAX_REDIRECTS = 3
 HTML_TYPES = ("text/html", "application/xhtml+xml")
 META_KEYS = ("og:description", "twitter:description", "description")  # precedence
+IMAGE_KEYS = ("og:image:secure_url", "og:image", "twitter:image", "twitter:image:src")  # precedence
+MAX_IMAGE_URL = 2048
 
 _LABEL = r"[a-z0-9](?:[a-z0-9-]{0,61}[a-z0-9])?"
 _HOSTNAME = re.compile(r"^(?=.{1,253}$)%s(?:\.%s)+$" % (_LABEL, _LABEL))
@@ -171,7 +173,7 @@ class _MetaParser(HTMLParser):
             return
         a = {k.lower(): (v or "") for k, v in attrs if k}
         key = (a.get("property") or a.get("name") or "").strip().lower()
-        if key in META_KEYS and key not in self.found and a.get("content", "").strip():
+        if key in META_KEYS + IMAGE_KEYS and key not in self.found and a.get("content", "").strip():
             self.found[key] = a["content"]
 
     def handle_endtag(self, tag):
@@ -179,19 +181,64 @@ class _MetaParser(HTMLParser):
             self.done = True
 
 
-def extract_blurb(html):
-    """og:description > twitter:description > description, as clean text."""
+def _meta(html):
     p = _MetaParser()
     try:
         p.feed(html)
         p.close()
     except Exception:  # HTMLParser is lenient, but stay defensive
         pass
+    return p.found
+
+
+def _blurb(found):
     for key in META_KEYS:
-        text = clean_text(p.found.get(key, ""), max_len=2000)
+        text = clean_text(found.get(key, ""), max_len=2000)
         if text:
             return text
     return ""
+
+
+def image_url(value, base):
+    """An absolute https image URL from a meta tag, or None. Relative paths
+    resolve against the page; anything else (http, data:, javascript:) is
+    dropped. The browser loads it, so it only has to be a well-formed https
+    URL on a public-looking hostname."""
+    value = (value or "").strip()
+    if not value or len(value) > MAX_IMAGE_URL or any(c.isspace() or ord(c) < 32 for c in value):
+        return None
+    try:
+        url = urllib.parse.urljoin(base, value)
+        parts = urllib.parse.urlsplit(url)
+    except ValueError:
+        return None
+    host = (parts.hostname or "").lower()
+    if parts.scheme != "https" or parts.username or parts.password or not _HOSTNAME.match(host):
+        return None
+    if re.fullmatch(r"0x[0-9a-f]*|[0-9]+", host.rsplit(".", 1)[1]):  # IPv4 literals, hex too
+        return None
+    if host.endswith(_BLOCKED_SUFFIXES) or len(url) > MAX_IMAGE_URL:
+        return None
+    return url
+
+
+def _image(found, base):
+    for key in IMAGE_KEYS:
+        url = image_url(found.get(key), base)
+        if url:
+            return url
+    return None
+
+
+def extract_blurb(html):
+    """og:description > twitter:description > description, as clean text."""
+    return _blurb(_meta(html))
+
+
+def extract_page(html, base):
+    """(blurb, image URL or None) from a page's head."""
+    found = _meta(html)
+    return _blurb(found), _image(found, base)
 
 
 _META_CHARSET = re.compile(rb"""<meta[^>]+charset=["']?([A-Za-z0-9_.:-]{1,40})""", re.I)
@@ -229,6 +276,10 @@ class Fetcher:
     def blurb(self, url):
         """Clean share-blurb text for url ('' if the page has none).
         Raises Blocked or FetchError."""
+        return self.page(url)[0]
+
+    def page(self, url):
+        """(blurb, share image URL or None) for url. Raises Blocked or FetchError."""
         deadline = self.clock() + DEADLINE
         for _hop in range(MAX_REDIRECTS + 1):
             if self.clock() > deadline:
@@ -252,7 +303,7 @@ class Fetcher:
                 watchdog.cancel()
                 conn.close()
             if location is None:
-                return extract_blurb(_decode(body, ctype))
+                return extract_page(_decode(body, ctype), url)
             url = urllib.parse.urljoin(url, location)
         raise FetchError("too many redirects")
 

@@ -214,7 +214,7 @@
       summarySource: ["publisher", "feed", "generated"].includes(raw.summarySource)
         ? raw.summarySource : "generated",
       summaryPending: false,
-      imageUrl: null,
+      imageUrl: validUrl(raw.imageUrl) && raw.imageUrl.startsWith("https:") ? raw.imageUrl : null,
       town: text(raw.town) || null,
       incidentDate: ISO_DATE.test(raw.incidentDate) ? raw.incidentDate : "",
       sourceName: text(raw.sourceName),
@@ -429,6 +429,19 @@
     return el("p", "story-summary" + kind, story.summary || "");
   }
 
+  // The publisher's share photo, hotlinked. https only; a broken one just goes away.
+  function storyImage(story) {
+    if (!validUrl(story.imageUrl) || !story.imageUrl.startsWith("https:")) return null;
+    const img = el("img", "story-image");
+    img.alt = "";
+    img.loading = "lazy";
+    img.decoding = "async";
+    img.referrerPolicy = "no-referrer";
+    img.addEventListener("error", () => img.remove(), { once: true });
+    img.src = story.imageUrl;
+    return img;
+  }
+
   function storyCard(story, index, total) {
     const card = el("article", "story-card");
     card.setAttribute("aria-roledescription", "slide");
@@ -437,7 +450,10 @@
     card.append(el("p", "story-date", formatDate(story.incidentDate)));
     card.append(el("p", "story-town", story.town ? `${story.town}, Florida` : "Somewhere, Florida"));
     card.append(el("h3", "", story.headline || "Florida Man remains Florida Man."));
-    card.append(summaryNode(story));
+    const photo = storyImage(story);
+    if (photo) card.append(photo);
+    // Summaries are off while photos are on trial.
+    // card.append(summaryNode(story));
 
     if (story.sourceName && validUrl(story.sourceUrl)) {
       const source = el("p", "story-source", "Source: ");

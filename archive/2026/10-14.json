@@ -193,6 +193,7 @@
  "summaries": {
   "1a7d761287b7453b": {
    "fetched": 1792021046,
+   "image": "https://www.motorbiscuit.com/wp-content/uploads/2025/10/Welcome-to-Florida-sign.jpeg",
    "publisherUrl": "https://www.motorbiscuit.com/wild-florida-man-driving-stories/",
    "retryAt": null,
    "status": "ok",
@@ -200,6 +201,7 @@
   },
   "1e03bf251dd06f2c": {
    "fetched": 1792021045,
+   "image": "https://static.foxnews.com/foxnews.com/content/uploads/2024/10/zapata-dye-inset.jpg",
    "publisherUrl": "https://www.foxnews.com/us/florida-man-arrested-after-allegedly-trying-steal-generator-powering-traffic-light-after-hurricane",
    "retryAt": null,
    "status": "ok",
@@ -207,6 +209,7 @@
   },
   "2a2cbf719ae59c90": {
    "fetched": 1792021114,
+   "image": null,
    "publisherUrl": "https://www.dailymail.com/news/article-12631001/Florida-man-trial-murdering-wife-refused-TV.html",
    "retryAt": null,
    "status": "ok",
@@ -214,6 +217,7 @@
   },
   "36025493a8ca7d82": {
    "fetched": 1792021046,
+   "image": "https://www.newsnationnow.com/wp-content/uploads/sites/108/2023/10/lottery.jpg?w=1280",
    "publisherUrl": "https://www.newsnationnow.com/us-news/southeast/florida-man-wins-over-4m-on-scratch-off-game-says-hell-get-a-place-to-live/",
    "retryAt": null,
    "status": "ok",
@@ -221,6 +225,7 @@
   },
   "4f8437ae6481a36b": {
    "fetched": 1792021115,
+   "image": "https://static.the-independent.com/2025/10/14/17/17/gfgfgsplit23534-copy.jpeg?width=1200&height=800&crop=1200:800",
    "publisherUrl": "https://www.independent.co.uk/news/world/americas/crime/florida-trial-robbery-murder-police-b2845231.html",
    "retryAt": null,
    "status": "ok",
@@ -228,6 +233,7 @@
   },
   "6af39f87d954cad4": {
    "fetched": 1792021048,
+   "image": "https://cmg-cmg-tv-10070-prod.cdn.arcpublishing.com/resizer/v2/https%3A%2F%2Fcloudfront-us-east-1.images.arcpublishing.com%2Fcmg%2FTXJHEL7TPFH63H4NN74ZUTJC54.jpg?auth=667fadc70dabf546fe5de9d85f76eef4d488c7f1ee6cf6af345ff1a6b3b85254&width=1200&height=630&smart=true",
    "publisherUrl": "https://www.wftv.com/news/health/it-wasnt-joke-central-florida-man-one-increasing-number-male-breast-cancer-patients/DK6W5MT4XFEMZDAOCQ3XLHNWWI/",
    "retryAt": null,
    "status": "ok",
@@ -235,6 +241,7 @@
   },
   "88af6bb4ce40eb64": {
    "fetched": 1792021050,
+   "image": "https://cdn.wmnf.org/wp-content/uploads/2024/10/s.png",
    "publisherUrl": "https://www.wmnf.org/sotd-10-14-24-florida-man-by-selwyn-birchwood/",
    "retryAt": null,
    "status": "ok",
@@ -242,6 +249,7 @@
   },
   "ba4d523c8d2a3bf6": {
    "fetched": 1792021112,
+   "image": "https://fortune.com/img-assets/wp-content/uploads/2023/10/GettyImages-523565866-e1697316503853.jpg?resize=1200,600",
    "publisherUrl": "https://fortune.com/2023/10/14/florida-man-whose-family-business-owned-playgirl-magazine-pleads-guilty-fraud-lending-company/",
    "retryAt": null,
    "status": "ok",
@@ -249,6 +257,7 @@
   },
   "c4e23357f4f2f3c8": {
    "fetched": 1792021043,
+   "image": "https://images.foxtv.com/static.fox13news.com/www.fox13news.com/content/uploads/2025/10/1200/630/nude-burglary-arrest.jpg?ve=1&tl=1",
    "publisherUrl": "https://www.fox13news.com/news/nude-florida-man-arrested-after-multiple-home-burglaries-pinellas-park-neighborhood",
    "retryAt": null,
    "status": "ok",
@@ -256,6 +265,7 @@
   },
   "fe74b9974770cebf": {
    "fetched": 1792021112,
+   "image": null,
    "publisherUrl": "https://www.wtsp.com/video/life/heartwarming/florida-man-walking-across-america-to-promote-mental-health-awareness/67-1dae80b5-9959-48b1-9fdb-dec91af4ab5e",
    "retryAt": 1792107512,
    "status": "failed",
