@@ -271,8 +271,8 @@ a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: 1px
 
 .carousel {
   display: flex;
-  align-items: flex-start;
-  overflow-x: auto;
+  overflow-x: auto; /* cards stretch to the tallest one, so the controls never jump */
+  overflow-y: hidden;
   overscroll-behavior-x: contain;
   scroll-snap-type: x mandatory;
   scrollbar-width: none;
@@ -392,6 +392,4 @@ a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: 1px
   .button, .nav-button { transition: none; }
 }
 
-.carousel { transition: height .2s ease-out; }
-@media (prefers-reduced-motion: reduce) { .carousel { transition: none; } }
 

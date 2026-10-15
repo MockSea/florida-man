@@ -382,14 +382,6 @@
     next.disabled = current >= stories.length - 1;
     position.textContent = many ? `${current + 1} of ${stories.length}` : "";
     shareButton.hidden = !stories.length && !payloadShareUrl;
-    fitHeight();
-  }
-
-  // Cards share one row, so the row takes the tallest card's height. Size it
-  // to the visible card instead, so the controls sit under the story.
-  function fitHeight() {
-    const card = carousel.children[current];
-    carousel.style.height = card ? `${card.offsetHeight}px` : "";
   }
 
   function render() {
@@ -416,7 +408,6 @@
     stories[index] = story;
     const old = carousel.children[index];
     if (old) old.replaceWith(storyCard(story, index, stories.length));
-    if (index === current) fitHeight();
   }
 
   function clearPolls() {
@@ -646,7 +637,6 @@
     weekday: "long", month: "long", day: "numeric", year: "numeric", timeZone: "America/New_York",
   });
 
-  window.addEventListener("resize", fitHeight);
   window.addEventListener("popstate", load);
   load();
 })();
