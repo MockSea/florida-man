@@ -72,7 +72,7 @@ a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: 1px
 }
 .masthead-strip {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-end;
   gap: 1rem;
   padding: .7rem 0 .55rem;
   border-bottom: 1px solid var(--rule);
@@ -130,10 +130,10 @@ a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: 1px
   position: absolute; width: 1px; height: 1px; margin: -1px; padding: 0;
   overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; border: 0;
 }
-.search { margin-top: 1rem; }
+.search { position: relative; margin-top: 1rem; }
 .search-bar {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) auto 2.5rem;
+  grid-template-columns: minmax(0, 1fr) auto auto 2.5rem;
   align-items: stretch;
   height: 2.5rem;
   border: 1px solid var(--ink);
@@ -146,7 +146,7 @@ a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: 1px
   border: 0;
   background: transparent;
   color: var(--ink);
-  font: 500 .95rem/1 var(--sans);
+  font: 500 1rem/1 var(--sans); /* under 16px and iOS zooms the page on focus */
 }
 .search-bar input:focus { outline: none; }
 .search-bar input::placeholder { color: #7a7060; }
@@ -164,13 +164,22 @@ a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: 1px
   text-transform: uppercase;
   cursor: pointer;
 }
-.town-toggle:hover, .town-toggle[aria-expanded="true"] { color: var(--red); }
+.town-toggle:hover, .town-toggle[aria-expanded="true"], .town-toggle.is-set { color: var(--red); }
+.town-toggle span { max-width: 9rem; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 .town-toggle:focus-visible { outline-offset: -4px; }
 .town-row {
+  position: absolute;
+  z-index: 6;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
   display: flex;
   align-items: center;
   gap: .6rem;
-  margin-top: .5rem;
+  padding: .75rem;
+  border: 1px solid var(--ink);
+  background: var(--paper);
+  box-shadow: 0 8px 20px rgb(0 0 0 / .14);
 }
 .town-row[hidden] { display: none; }
 .town-row label { font: italic .9rem/1.2 var(--serif); white-space: nowrap; }
@@ -182,8 +191,32 @@ a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: 1px
   border: 1px solid var(--ink);
   background: var(--field);
   color: var(--ink);
-  font: 500 .95rem/1 var(--sans);
+  font: 500 1rem/1 var(--sans); /* under 16px and iOS zooms the page on focus */
 }
+.town-field { position: relative; flex: 1; min-width: 0; }
+.town-row .town-field input { width: 100%; }
+.town-suggestions {
+  position: absolute;
+  z-index: 5;
+  top: calc(100% + 4px);
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid var(--ink);
+  background: var(--field);
+  box-shadow: 0 6px 16px rgb(0 0 0 / .12);
+}
+.town-suggestions[hidden] { display: none; }
+.town-suggestions li {
+  padding: .7rem .75rem;
+  font: 500 .95rem/1.2 var(--sans);
+  cursor: pointer;
+}
+.town-suggestions li + li { border-top: 1px solid var(--paper-deep); }
+.town-suggestions li:hover,
+.town-suggestions li[aria-selected="true"] { background: var(--paper-deep); color: var(--red); }
 .town-row input:focus { outline: 3px solid var(--red); outline-offset: 1px; }
 .town-row input::placeholder { color: #7a7060; }
 .search-go {
@@ -197,6 +230,26 @@ a { color: inherit; text-underline-offset: .18em; text-decoration-thickness: 1px
 }
 .search-go:hover { background: var(--red-deep); }
 .search-go:focus-visible { outline-offset: -4px; outline-color: #fff; }
+
+.random-button {
+  display: inline-flex;
+  align-items: center;
+  gap: .35rem;
+  padding: 0 .75rem;
+  border: 0;
+  border-left: 1px solid var(--paper-deep);
+  background: transparent;
+  color: var(--ink);
+  font: 700 .75rem/1 var(--sans);
+  letter-spacing: .06em;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.random-button:hover { color: var(--red); }
+.random-button:disabled { opacity: .5; cursor: wait; }
+.random-button:focus-visible { outline-offset: -4px; }
+.random-label { display: none; }
+@media (min-width: 560px) { .random-label { display: inline; } }
 
 .strip-button {
   display: inline-flex;
