@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; font-src 'self'; img-src 'self' data:; connect-src 'self'; object-src 'none'; base-uri 'none'; form-action 'self'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="fm-mode" content="static">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="One Florida Man headline a day, from the outlet that reported it.">
+  <meta name="theme-color" content="#e9e8e3">
+  <title>Florida Man of the Day</title>
+  <link rel="preload" href="fonts/archivo.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <header class="masthead">
+    <div class="masthead-strip">
+      <button id="random-button" class="strip-button" type="button">
+        <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="3.5"/><circle cx="8.5" cy="8.5" r="1.4"/><circle cx="15.5" cy="15.5" r="1.4"/><circle cx="12" cy="12" r="1.4"/><circle cx="15.5" cy="8.5" r="1.4"/><circle cx="8.5" cy="15.5" r="1.4"/></svg>
+        <span>Random story</span>
+      </button>
+      <span id="dateline"></span>
+    </div>
+    <a class="masthead-title" href="./" aria-label="Florida Man of the Day, home">
+      <span class="masthead-name">Florida Man</span>
+      <span class="masthead-of">of the Day</span>
+    </a>
+    <p class="masthead-tag">One headline a day, from the outlet that reported it.</p>
+  </header>
+
+  <main class="page">
+    <form id="search-form" class="search" action="./" method="get" role="search" aria-label="Find a story">
+      <div class="search-bar">
+        <label class="visually-hidden" for="date">Date</label>
+        <input id="date" name="date" type="date" min="2004-01-01">
+        <button id="town-toggle" class="town-toggle" type="button" aria-expanded="false" aria-controls="town-row">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M7 12h10M10 18h4"/></svg>
+          <span>Town</span>
+        </button>
+        <button class="search-go" type="submit" aria-label="Search">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5L20 20"/></svg>
+        </button>
+      </div>
+      <div id="town-row" class="town-row" hidden>
+        <label for="town">Only stories from</label>
+        <input id="town" name="town" type="text" autocomplete="off"
+               placeholder="Start typing, e.g. Tampa" enterkeyhint="search" list="town-list">
+        <datalist id="town-list"></datalist>
+      </div>
+    </form>
+
+    <p id="status" class="status" role="status" aria-live="polite"></p>
+
+    <section id="results" class="results" aria-labelledby="results-title">
+      <div class="results-head">
+        <h2 id="results-title" class="results-title">Today’s Florida Man</h2>
+        <div class="pager">
+          <button id="previous" class="nav-button" type="button" aria-label="Previous story">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5l-7 7 7 7"/></svg>
+          </button>
+          <p id="position" class="position" aria-live="polite"></p>
+          <button id="next" class="nav-button" type="button" aria-label="Next story">
+            <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M9 5l7 7-7 7"/></svg>
+          </button>
+        </div>
+      </div>
+      <div id="message" class="notice" hidden></div>
+
+      <div id="carousel" class="carousel" tabindex="0"
+           aria-roledescription="carousel" aria-label="Florida Man stories"></div>
+
+      <div class="story-nav">
+        <button id="share" class="button button-ghost share" type="button">
+          <svg class="icon" viewBox="0 0 24 24" aria-hidden="true"><path d="M12 15V3.5M7.5 8L12 3.5 16.5 8M5 12.5v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg>
+          <span id="share-label">Share</span>
+        </button>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <p>Every story links to the newsroom that reported it. Filed under Florida, allegedly.</p>
+  </footer>
+</body>
+</html>
