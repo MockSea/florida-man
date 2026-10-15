@@ -10,6 +10,7 @@ pick, so the service sees it as cached and never re-picks it: same date, same
 story, as on the server. Its summary rows travel with it, so retry times
 survive between runs. Nothing here deletes or empties an archive file."""
 import argparse
+import hashlib
 import json
 import os
 import re
@@ -305,6 +306,19 @@ def static_index(html):
     return html.replace(META_ANCHOR, META_ANCHOR + inject, 1)
 
 
+def cache_bust(html, static_dir=STATIC_DIR):
+    """Stamp style.css and app.js with a hash of their contents, so a phone
+    that cached the last build picks up the new one on the next load."""
+    for name, attr in (("style.css", "href"), ("app.js", "src")):
+        with open(os.path.join(static_dir, name), "rb") as f:
+            digest = hashlib.sha256(f.read()).hexdigest()[:10]
+        ref = '%s="%s"' % (attr, name)
+        if ref not in html:
+            raise BuildError("index.html lacks %s" % ref)
+        html = html.replace(ref, '%s="%s?v=%s"' % (attr, name, digest), 1)
+    return html
+
+
 def site_story(st, rows):
     out = overlay(st, rows.get(article_key(st["sourceUrl"])), False)
     out["shareUrl"] = "?story=" + st["id"]
@@ -371,7 +385,7 @@ def _prepare_out(out, keep):
 def write_site(out, records, today, static_dir=STATIC_DIR, archive_dir=ARCHIVE_DIR):
     """Replace `out` with the site. Returns the date today.json shows."""
     with open(os.path.join(static_dir, "index.html"), encoding="utf-8") as f:
-        index_html = static_index(f.read())
+        index_html = cache_bust(static_index(f.read()), static_dir)
     bad = absolute_urls(index_html)
     if bad:
         raise BuildError("index.html has root-relative URLs: %s" % ", ".join(bad[:5]))
